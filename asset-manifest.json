@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/jdphotography/static/css/main.a617e044.chunk.css",
+    "main.js": "/jdphotography/static/js/main.d9645940.chunk.js",
+    "main.js.map": "/jdphotography/static/js/main.d9645940.chunk.js.map",
+    "runtime-main.js": "/jdphotography/static/js/runtime-main.a83b988e.js",
+    "runtime-main.js.map": "/jdphotography/static/js/runtime-main.a83b988e.js.map",
+    "static/js/2.3c412273.chunk.js": "/jdphotography/static/js/2.3c412273.chunk.js",
+    "static/js/2.3c412273.chunk.js.map": "/jdphotography/static/js/2.3c412273.chunk.js.map",
+    "static/js/3.304a1c3c.chunk.js": "/jdphotography/static/js/3.304a1c3c.chunk.js",
+    "static/js/3.304a1c3c.chunk.js.map": "/jdphotography/static/js/3.304a1c3c.chunk.js.map",
+    "index.html": "/jdphotography/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/jdphotography/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.3c412273.chunk.js.LICENSE.txt": "/jdphotography/static/js/2.3c412273.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/jdphotography/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a83b988e.js",
+    "static/js/2.3c412273.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.d9645940.chunk.js"
+  ]
+}
