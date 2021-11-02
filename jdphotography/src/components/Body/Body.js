@@ -9,7 +9,7 @@ function Body() {
     return (
         <div class="body">
 
-        <Container>
+        <Container fluid>
 
             <header className="header code">
                 <Logo />
