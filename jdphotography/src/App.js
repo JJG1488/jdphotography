@@ -1,10 +1,13 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import NavTabs from './components/NavTabs/NavTabs';
+import Body from './components/Body/Body';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>This is your website Pop, lets work</h1>
         <p>
@@ -18,7 +21,11 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      <NavTabs />
+      <Body />
+      <Footer />
+
     </div>
   );
 }
