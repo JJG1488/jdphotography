@@ -3,6 +3,9 @@ import './styles.css';
 import Logo from '../Logo/Logo';
 import MainSlideShow from "../MainSlideShow/MainSlideShow";
 import Container from "react-bootstrap/Container";
+import ShirtButton from "../ShirtButton/ShirtButton";
+import HatButton from "../HatButton/HatButton";
+import HoodieButton from "../HoodieButton/HoodieButton";
 
 
 function Body() {
@@ -16,22 +19,21 @@ function Body() {
             </header>
 
             <div className="main code">
-                Main: Carousel of Items
                 <MainSlideShow />
             </div>
 
             <div className="section code">
-                Shop Shirts Button
+            <ShirtButton/>
                 CSS: On Hover, zoom in
             </div>
 
             <div className="section code">
-                Shop Hoodies Button
+            <HoodieButton/>
                 CSS: On Hover, zoom in
             </div>
 
             <div className="section code">
-                Shop Hats Button
+            <HatButton/>
                 CSS: On Hover, zoom in
             </div>
 

@@ -14,8 +14,8 @@ function MainSlideShow() {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>First Article of Clothing</h3>
+                    <p>Maybe put a model here wearing a hat and hoodie?</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={500}>
@@ -25,8 +25,8 @@ function MainSlideShow() {
                     alt="Second slide"
                 />
                 <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>Second Article of Clothing</h3>
+                    <p>Maybe put your favorite article of clothing here</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -36,8 +36,8 @@ function MainSlideShow() {
                     alt="Third slide"
                 />
                 <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h3>Third Article of Clothing</h3>
+                    <p>Maybe put a shirt, hat, and hoodie layed out across a table??</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
