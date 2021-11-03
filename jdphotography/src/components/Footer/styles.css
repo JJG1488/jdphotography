@@ -1,14 +1,18 @@
-.code2 {
-  background-color: rgba(25, 25, 25, 1);
-  border-radius: 6px;
-  color: #fff;
-  display: block;
-  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal,
-    "Courier New", Courier;
-  padding: 24px 15px;
-  text-align: center;
-}
+/* .code2 { */
+  /* background-color: rgba(25, 25, 25, 1); */
+  /* border-radius: 6px; */
+  /* color: #fff; */
+  /* display: block; */
+  /* font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, */
+    /* "Courier New", Courier; */
+  /* padding: 24px 15px; */
+  /* text-align: center; */
+  /* margin: auto 0; */
+/* } */
 
 footer {
-  margin: 5% 0% 0% 0%;
+  color: white;
+  background-color: rgba(25, 25, 25, 1);
+  height: 100px;
+  margin: 15% 0% 0% 0%;
 }

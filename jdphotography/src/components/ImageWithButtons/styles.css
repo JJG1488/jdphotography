@@ -1,0 +1,33 @@
+.hoodie-button:hover,
+.hat-button:hover,
+.shirt-button:hover {
+  /* border: solid green 10px; */
+  width: 300px;
+  height: 300px;
+  transition-duration: 1s;
+}
+
+
+.hoodie-button {
+  /* border: solid green 10px; */
+  width: 200px;
+  height: 200px;
+  /* padding: 10px; */
+  box-shadow: 2px 4px 9px 0.25rem rgba(0, 0, 0, 0.3);
+}
+
+.hat-button {
+  /* border: solid green 10px; */
+  width: 200px;
+  height: 200px;
+  /* padding: 10px; */
+  box-shadow: 2px 4px 9px 0.25rem rgba(0, 0, 0, 0.3);
+}
+
+.shirt-button {
+  /* border: solid green 10px; */
+  width: 200px;
+  height: 200px;
+  /* padding: 10px; */
+  box-shadow: 2px 4px 9px 0.25rem rgba(0, 0, 0, 0.3);
+}

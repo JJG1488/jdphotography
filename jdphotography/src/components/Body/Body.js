@@ -1,16 +1,21 @@
 import React from "react";
 import './styles.css';
 import { useEffect } from 'react';
-import Logo from '../Logo/Logo';
+// import Logo from '../Logo/Logo';
 // import MainSlideShow from "../MainSlideShow/MainSlideShow";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from 'react-bootstrap/Col';
-import ShirtButton from "../ShirtButton/ShirtButton";
-import HatButton from "../HatButton/HatButton";
-import HoodieButton from "../HoodieButton/HoodieButton";
-import BodyNav from "../BodyNav/BodyNav";
-import BodyContent from "../BodyContent/BodyContent";
+import ImageWithButtons from '../ImageWithButtons/ImageWithButtons';
+// import ShirtButton from "../PageButtons/ShirtButton/ShirtButton";
+// import HatButton from "../PageButtons/HatButton/HatButton";
+// import HoodieButton from "../PageButtons/HoodieButton/HoodieButton";
+import LowerBodyNav from "../LowerBodyNav/LowerBodyNav";
+import LowerBodyContent from "../LowerBodyContent/LowerBodyContent";
+import ContactForm from '../ContactForm/ContactForm';
+import Subscribe from '../Subscribe/Subscribe';
+
+
 
 
 
@@ -40,59 +45,50 @@ function Body() {
 
     return (
         <div className="body">
+            <Container >
+                <h1 className="introduction-1">Place Holder Text for Introduction of Section</h1>
 
-            <Container fluid>
-
-                <Logo className="header code" />
-
-
-                {/* <Row fluid="true">
-                    <div className="main code">
-                        <MainSlideShow />
-                    </div>
-                </Row> */}
-
-                <Container>
-
-                    <Row className="product-row code box" fluid="true">
-                        <Col>
-                            <ShirtButton className="section code box" />
-                            CSS: On Hover, zoom in
-                        </Col>
-
-                        <Col>
-                            <HoodieButton className="section code box" />
-                            CSS: On Hover, zoom in
-                        </Col>
-
-                        <Col>
-                            <HatButton className="section code box" />
-                            CSS: On Hover, zoom in
-                        </Col>
-                    </Row>
-                </Container>
+                <Row className="product-row code box" fluid="true">
+                    <ImageWithButtons />
+                    CSS: On Hover, zoom in
+                </Row>
 
                 <hr />
 
-                <BodyNav className="aside code box" />
-                <Row className="product-row code box">
-                    <BodyContent className="main code box" />
+                <h1 className="introduction-1">Place Holder Text for Introduction of Section</h1>
+
+                <Row>
+                    <Col>
+                        <LowerBodyNav className="aside code box" />
+                    </Col>
                 </Row>
+
+                <h1 className="introduction-1">Place Holder Text for Introduction of Section</h1>
+
+                <Row className="product-row code box">
+                    <LowerBodyContent className="main code box" />
+                </Row>
+
+                <h1 className="introduction-1">Place Holder Text for Introduction of Section</h1>
 
                 <Row fluid="true">
                     <Col fluid="true">
-                        <div className="section code box questions">
+                        {/* <div className="section code box questions">
                             set up button that leads to a form where you can submit questions
                             CSS: onHover expand Content/ words
-                        </div>
+                        </div> */}
+                        <ContactForm/>
                     </Col>
                     <Col fluid="true">
-                        <div className="section code box subscribe">
+                        {/* <div className="section code box subscribe">
                             Subscribe to webpage for more content to reach out to returning customers
                             CSS: onHover expand Content/ words
-                        </div>
+                        </div> */}
+                        <Subscribe />
                     </Col>
                 </Row>
+
+                <h1 className="introduction-1">Place Holder Text for Introduction of Section</h1>
 
                 <div className="section code box map">
                     Large Map to show location with logo and any other supporting websites to find work.

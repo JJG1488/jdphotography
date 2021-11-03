@@ -1,0 +1,21 @@
+.body-content-img {
+    /* border: solid red 10px; */
+    float: left;
+    height: 200px;
+    width: 400px;
+    margin-right: 5px;
+}
+
+.body-paragraph {
+    color: black;
+    text-align: left;
+    background-color: white;
+    /* box-shadow:2px 4px 9px .25rem rgba(0,0,0,0.3); */
+    height: 200px;
+    /* text-align: left; */
+    /* border: solid blue 10px; */
+    
+}
+
+
+

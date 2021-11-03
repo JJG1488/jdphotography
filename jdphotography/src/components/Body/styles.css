@@ -1,29 +1,32 @@
 * body {
+  /* border: solid red 10px; */
   margin: 0;
-  background-color: white;
-  color:rgb(255, 255, 255)
+  background-color: rgba(204, 36, 36, 0);
+  
+}
+
+.introduction-1 {
+  margin-top: 15%;
+  margin-bottom: 5%;
 }
 
 .code {
-  background-color: hsl(0, 0%, 100%);
-  border-radius: 6px;
-  color: rgb(9, 0, 0);
-  display: block;
-  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal,
-    "Courier New", Courier;
-  padding: 24px 15px;
-  text-align: center;
- 
+  /* border: solid red 10px; */
+  /* background-color: hsl(0, 23%, 18%); */
+  /* border-radius: 6px; */
+  /* color: rgb(9, 0, 0); */
+  /* display: block; */
+  /* padding: 20px 20px; */
+  /* text-align: left; */
+  /* box-shadow: 2px 4px 9px 0.25rem rgba(0, 0, 0, 0.3); */
 }
 
 img.d-block {
+  /* border: solid red 10px; */
   max-height: 400px;
 }
 
-div .body {
-  /* background-image: url('../../assets/image/detroit-reflection-cityscape-city-lights-wallpaper-preview.jpeg'); */
-  background-repeat: no-repeat;
-  background-size: 100%;
+/* div .body {
   color: rgb(18, 16, 16);
   align-items: center;
   display: flex;
@@ -31,7 +34,7 @@ div .body {
   justify-content: center;
   overflow-x: hidden;
   background-color: hsl(0, 0%, 100%);
-}
+} */
 
 .header,
 .main,
@@ -39,28 +42,11 @@ div .body {
 .aside,
 .footer {
   margin: 0 1.5% 24px 1.5%;
-  
-
 }
-.section {
-  
+/* .section code box {
   display: inline-block;
-
-}
-.footer {
-  margin-bottom: 0;
-}
-
-.main {
-  margin-bottom: 2%;
-}
-
-.aside {
-  width: 20%;
-  margin-left: 5.5%;
-  background-color: white;
-  box-shadow:2px 4px 9px .25rem rgba(0,0,0,0.3);
-}
+  border: solid red 10px;
+} */
 
 .box {
   display: flex;
@@ -68,33 +54,47 @@ div .body {
   justify-content: center;
   margin: 10px;
   border-radius: 10px;
-  box-shadow:2px 4px px .25rem rgba(0,0,0,0.3);
+  /* box-shadow: 2px 4px px 0.25rem rgba(0, 0, 0, 0.3); */
   transform: translateX(800%);
   transition: transform 0.4 ease;
   background-color: white;
-  box-shadow:2px 4px 9px .25rem rgba(0,0,0,0.3);
+  box-shadow: 2px 4px 9px 0.25rem rgba(0, 0, 0, 0.3);
 }
 
 box:nth-of-type(even) {
   transform: translateX(-800%);
+
 }
 
 .box.show {
   transform: translateX(0);
-}
 
-div .main .code {
-  max-height: 20%;
 }
 
 .product-row {
-  background-color: white;
-  box-shadow:2px 4px 9px .25rem rgba(0,0,0,0.3);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* border: solid red 10px; */
+  /* background-color: white; */
+  box-shadow: 0px 0px 0px 0rem rgba(0, 0, 0, 0.3);
 }
 
+.product-row:hover {
+  /* border: solid red 10px; */
+}
 
-@media only screen and (max-width: 990px) {
+/* @media only screen and (max-width: 9910px) {
   html {
-    font-size: 14px;
+    font-size: 24px;
+    border: solid red 10px;
   }
-}
+
+  .product-row {
+    border: solid red 10px;
+    background-color: white;
+    box-shadow: 2px 4px 9px 0.25rem rgba(0, 0, 0, 0.3);
+  }
+  
+
+} */

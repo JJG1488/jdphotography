@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from "react-bootstrap/Navbar";
 // import Container from "react-bootstrap/Container";
 import "./styles.css";
-import logo from '../../assets/image/modern-business-buildings-11681736.jpeg';
+import logo from '../../assets/image/Professional_photo/20210526_1646071.jpg';
 import MainSlideShow from '../MainSlideShow/MainSlideShow';
 
 function NavTabs() {
