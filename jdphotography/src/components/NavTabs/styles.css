@@ -1,27 +1,24 @@
 .logo {
-    font-family: 'Ephesis', cursive;
+  font-family: "Ephesis", cursive;
+  display: inline;
 }
-
-#basic-navbar-nav{
-    /* float: left; */
-    /* justify-content: left; */
-    /* background-color: red; */
-}
-
-/* .me-auto, #navTabsRow, #nav-data {
-    background-color: white;
-} */
 
 .nav-data {
-    background-color: rgba(25,25,25,1)
-
+  background-color: rgba(25, 25, 25, 1);
 }
 
-/* #nav-link-text:hover {
-    color: blue;
-} */
 
-/* .navbar-toggler-icon {
-    margin-right: 20%;
-} */
+img {
+  float: left;
+}
 
+.me-auto {
+    justify-content: center;
+    align-items: center;
+}
+
+img.d-block {
+  background-color: 1px solid rgba(25, 25, 25, 1);
+  border: 1px solid rgba(25, 25, 25, 1);
+  padding: 0;
+}

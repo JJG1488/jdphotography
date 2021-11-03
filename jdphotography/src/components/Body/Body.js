@@ -2,7 +2,7 @@ import React from "react";
 import './styles.css';
 import { useEffect } from 'react';
 import Logo from '../Logo/Logo';
-import MainSlideShow from "../MainSlideShow/MainSlideShow";
+// import MainSlideShow from "../MainSlideShow/MainSlideShow";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from 'react-bootstrap/Col';
@@ -22,10 +22,10 @@ function Body() {
         window.addEventListener('scroll', checkBoxes);
         // find trigger pointerup
         const triggerBottom = window.innerHeight / 5 * 4;
-        console.log(triggerBottom)
+        // console.log(triggerBottom)
         boxes.forEach((box) => {
             const boxTop = box.getBoundingClientRect().top
-            console.log(boxTop)
+            // console.log(boxTop)
 
             if (boxTop < triggerBottom) {
                 box.classList.add('show')
@@ -43,49 +43,42 @@ function Body() {
 
             <Container fluid>
 
-                <header className="header code">
-                    <Logo />
-                </header>
+                <Logo className="header code" />
+
 
                 <Row fluid="true">
                     <div className="main code">
-                        <MainSlideShow />
+                        {/* <MainSlideShow /> */}
                     </div>
                 </Row>
 
+                <Container>
+
                 <Row fluid="true">
                     <Col>
-                        <div className="section code box">
-                            <ShirtButton />
-                            CSS: On Hover, zoom in
-                        </div>
+                        <ShirtButton className="section code box" />
+                        CSS: On Hover, zoom in
                     </Col>
 
                     <Col>
-                        <div className="section code box">
-                            <HoodieButton />
-                            CSS: On Hover, zoom in
-                        </div>
+                        <HoodieButton className="section code box" />
+                        CSS: On Hover, zoom in
                     </Col>
-                    <Col>
 
-                        <div className="section code box">
-                            <HatButton />
-                            CSS: On Hover, zoom in
-                        </div>
+                    <Col>
+                        <HatButton className="section code box" />
+                        CSS: On Hover, zoom in
                     </Col>
                 </Row>
+                </Container>
 
                 <hr />
 
-                <div className="aside code box">
-                    <BodyNav />
-                </div>
+                <BodyNav className="aside code box" />
+<Row>
+                <BodyContent className="main code box" />
+                </Row>
 
-                <div className="main code box">
-                    <BodyContent />
-
-                </div>
                 <Row fluid="true">
                     <Col fluid="true">
                         <div className="section code box questions">

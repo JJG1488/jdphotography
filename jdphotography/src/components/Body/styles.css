@@ -3,7 +3,6 @@
 }
 
 .code {
-  background: #2db34a;
   border-radius: 6px;
   color: #fff;
   display: block;
@@ -76,4 +75,11 @@ box:nth-of-type(even) {
 
 div .main .code {
   max-height: 20%;
+}
+
+
+@media only screen and (max-width: 990px) {
+  html {
+    font-size: 14px;
+  }
 }

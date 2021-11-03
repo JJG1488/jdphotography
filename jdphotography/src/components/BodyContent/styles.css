@@ -1,9 +1,31 @@
 .body-content-img {
-    height: 117px;
-    width: 240px;
+    /* border: solid red 10px; */
     float: left;
+    height: 200px;
+    width: 400px;
+    margin-right: 5px;
 }
 
 .learn-more-btn {
-    float: right;
+    border: solid blue;
+    background-color: white;
+    color: blue;
+    border-radius: 40px;
+    background: transparent;
 }
+
+.learn-more-btn:hover {
+    border: solid blue;
+    background-color: blue;
+    color: white;
+}
+
+.body-paragraph {
+    color: black;
+    text-align: left;
+    /* border: solid blue 10px; */
+    
+}
+
+
+
