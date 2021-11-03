@@ -1,3 +1,7 @@
+* body {
+  margin: 0;
+}
+
 .code {
   background: #2db34a;
   border-radius: 6px;
@@ -7,6 +11,11 @@
     "Courier New", Courier;
   padding: 24px 15px;
   text-align: center;
+ 
+}
+
+img.d-block {
+  max-height: 400px;
 }
 
 div .body {
@@ -14,6 +23,11 @@ div .body {
   background-repeat: no-repeat;
   background-size: 100%;
   color: white;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-x: hidden;
 }
 
 .header,
@@ -22,10 +36,11 @@ div .body {
 .aside,
 .footer {
   margin: 0 1.5% 24px 1.5%;
+
 }
 .section {
   display: inline-block;
-  width: 20%;
+
 }
 .footer {
   margin-bottom: 0;
@@ -36,7 +51,29 @@ div .body {
 }
 
 .aside {
-    width: 20%;
-    margin-left: 5.5%;
+  width: 20%;
+  margin-left: 5.5%;
+}
 
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow:2px 4px px .25rem rgba(0,0,0,0.3);
+  transform: translateX(800%);
+  transition: transform 0.4 ease;
+}
+
+box:nth-of-type(even) {
+  transform: translateX(-800%);
+}
+
+.box.show {
+  transform: translateX(0);
+}
+
+div .main .code {
+  max-height: 20%;
 }

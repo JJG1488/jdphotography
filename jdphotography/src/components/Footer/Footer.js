@@ -2,11 +2,11 @@ import React from "react";
 import './styles.css';
 
 function Footer() {
-    return(<div>
+    return(
 
-    <footer className="code2">Footer</footer>
+    <footer className="code2"><span className="copyright" id="footer-span">© { new Date().getFullYear() }  Good Peeps. All Rights Reserved.</span></footer>
 
-    </div>)
+    )
 }
 
 export default Footer;
