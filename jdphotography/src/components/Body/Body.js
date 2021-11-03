@@ -46,37 +46,37 @@ function Body() {
                 <Logo className="header code" />
 
 
-                <Row fluid="true">
+                {/* <Row fluid="true">
                     <div className="main code">
-                        {/* <MainSlideShow /> */}
+                        <MainSlideShow />
                     </div>
-                </Row>
+                </Row> */}
 
                 <Container>
 
-                <Row fluid="true">
-                    <Col>
-                        <ShirtButton className="section code box" />
-                        CSS: On Hover, zoom in
-                    </Col>
+                    <Row className="product-row code box" fluid="true">
+                        <Col>
+                            <ShirtButton className="section code box" />
+                            CSS: On Hover, zoom in
+                        </Col>
 
-                    <Col>
-                        <HoodieButton className="section code box" />
-                        CSS: On Hover, zoom in
-                    </Col>
+                        <Col>
+                            <HoodieButton className="section code box" />
+                            CSS: On Hover, zoom in
+                        </Col>
 
-                    <Col>
-                        <HatButton className="section code box" />
-                        CSS: On Hover, zoom in
-                    </Col>
-                </Row>
+                        <Col>
+                            <HatButton className="section code box" />
+                            CSS: On Hover, zoom in
+                        </Col>
+                    </Row>
                 </Container>
 
                 <hr />
 
                 <BodyNav className="aside code box" />
-<Row>
-                <BodyContent className="main code box" />
+                <Row className="product-row code box">
+                    <BodyContent className="main code box" />
                 </Row>
 
                 <Row fluid="true">

@@ -22,3 +22,12 @@ img.d-block {
   border: 1px solid rgba(25, 25, 25, 1);
   padding: 0;
 }
+
+#basic-navbar-nav {
+  border: red solid 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 50%; */
+
+}

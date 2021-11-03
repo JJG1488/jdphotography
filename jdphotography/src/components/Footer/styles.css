@@ -1,5 +1,5 @@
 .code2 {
-  background: #2db34a;
+  background-color: rgba(25, 25, 25, 1);
   border-radius: 6px;
   color: #fff;
   display: block;
@@ -10,5 +10,5 @@
 }
 
 footer {
-  margin: 0 1.5% 24px 1.5%;
+  margin: 5% 0% 0% 0%;
 }

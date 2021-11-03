@@ -1,10 +1,13 @@
 * body {
   margin: 0;
+  background-color: white;
+  color:rgb(255, 255, 255)
 }
 
 .code {
+  background-color: hsl(0, 0%, 100%);
   border-radius: 6px;
-  color: #fff;
+  color: rgb(9, 0, 0);
   display: block;
   font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal,
     "Courier New", Courier;
@@ -21,12 +24,13 @@ div .body {
   /* background-image: url('../../assets/image/detroit-reflection-cityscape-city-lights-wallpaper-preview.jpeg'); */
   background-repeat: no-repeat;
   background-size: 100%;
-  color: white;
+  color: rgb(18, 16, 16);
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   overflow-x: hidden;
+  background-color: hsl(0, 0%, 100%);
 }
 
 .header,
@@ -35,9 +39,11 @@ div .body {
 .aside,
 .footer {
   margin: 0 1.5% 24px 1.5%;
+  
 
 }
 .section {
+  
   display: inline-block;
 
 }
@@ -52,6 +58,8 @@ div .body {
 .aside {
   width: 20%;
   margin-left: 5.5%;
+  background-color: white;
+  box-shadow:2px 4px 9px .25rem rgba(0,0,0,0.3);
 }
 
 .box {
@@ -63,6 +71,8 @@ div .body {
   box-shadow:2px 4px px .25rem rgba(0,0,0,0.3);
   transform: translateX(800%);
   transition: transform 0.4 ease;
+  background-color: white;
+  box-shadow:2px 4px 9px .25rem rgba(0,0,0,0.3);
 }
 
 box:nth-of-type(even) {
@@ -75,6 +85,11 @@ box:nth-of-type(even) {
 
 div .main .code {
   max-height: 20%;
+}
+
+.product-row {
+  background-color: white;
+  box-shadow:2px 4px 9px .25rem rgba(0,0,0,0.3);
 }
 
 

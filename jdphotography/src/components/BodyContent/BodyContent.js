@@ -23,7 +23,7 @@ function BodyContent() {
             </Figure>
             {/* <Image className="body-content-img" src={bodyContentPhoto} thumbnail /> */}
 
-            <Button variant="secondary" size="lg" active className="learn-more-btn">
+            <Button variant="primary" size="lg" active className="learn-more-btn">
     Learn More
   </Button>
             
