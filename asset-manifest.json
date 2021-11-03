@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/jdphotography/static/css/main.297d5656.chunk.css",
-    "main.js": "/jdphotography/static/js/main.f06763ce.chunk.js",
-    "main.js.map": "/jdphotography/static/js/main.f06763ce.chunk.js.map",
-    "runtime-main.js": "/jdphotography/static/js/runtime-main.196ee006.js",
-    "runtime-main.js.map": "/jdphotography/static/js/runtime-main.196ee006.js.map",
+    "main.css": "/jdphotography/static/css/main.7e0f509a.chunk.css",
+    "main.js": "/jdphotography/static/js/main.bbe170df.chunk.js",
+    "main.js.map": "/jdphotography/static/js/main.bbe170df.chunk.js.map",
+    "runtime-main.js": "/jdphotography/static/js/runtime-main.c563c180.js",
+    "runtime-main.js.map": "/jdphotography/static/js/runtime-main.c563c180.js.map",
     "static/css/2.0a9ec390.chunk.css": "/jdphotography/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.5c42e52b.chunk.js": "/jdphotography/static/js/2.5c42e52b.chunk.js",
-    "static/js/2.5c42e52b.chunk.js.map": "/jdphotography/static/js/2.5c42e52b.chunk.js.map",
-    "static/js/3.60e7ce6c.chunk.js": "/jdphotography/static/js/3.60e7ce6c.chunk.js",
-    "static/js/3.60e7ce6c.chunk.js.map": "/jdphotography/static/js/3.60e7ce6c.chunk.js.map",
+    "static/js/2.63009b4f.chunk.js": "/jdphotography/static/js/2.63009b4f.chunk.js",
+    "static/js/2.63009b4f.chunk.js.map": "/jdphotography/static/js/2.63009b4f.chunk.js.map",
+    "static/js/3.cfb8eb86.chunk.js": "/jdphotography/static/js/3.cfb8eb86.chunk.js",
+    "static/js/3.cfb8eb86.chunk.js.map": "/jdphotography/static/js/3.cfb8eb86.chunk.js.map",
     "index.html": "/jdphotography/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/jdphotography/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.297d5656.chunk.css.map": "/jdphotography/static/css/main.297d5656.chunk.css.map",
-    "static/js/2.5c42e52b.chunk.js.LICENSE.txt": "/jdphotography/static/js/2.5c42e52b.chunk.js.LICENSE.txt",
+    "static/css/main.7e0f509a.chunk.css.map": "/jdphotography/static/css/main.7e0f509a.chunk.css.map",
+    "static/js/2.63009b4f.chunk.js.LICENSE.txt": "/jdphotography/static/js/2.63009b4f.chunk.js.LICENSE.txt",
     "static/media/A5-clean-hat-social-1200X630.61e1164e.jpeg": "/jdphotography/static/media/A5-clean-hat-social-1200X630.61e1164e.jpeg",
+    "static/media/IMG_1304.1085f9bd.PNG": "/jdphotography/static/media/IMG_1304.1085f9bd.PNG",
     "static/media/detroit-reflection-cityscape-city-lights-wallpaper-preview.e380c726.jpeg": "/jdphotography/static/media/detroit-reflection-cityscape-city-lights-wallpaper-preview.e380c726.jpeg",
     "static/media/modern-business-buildings-11681736.ff0759c9.jpeg": "/jdphotography/static/media/modern-business-buildings-11681736.ff0759c9.jpeg",
-    "static/media/photo-1579572331145-5e53b299c64e.4bb8f508.jpeg": "/jdphotography/static/media/photo-1579572331145-5e53b299c64e.4bb8f508.jpeg",
     "static/media/tshirts-1613587154.d5900953.jpeg": "/jdphotography/static/media/tshirts-1613587154.d5900953.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.196ee006.js",
+    "static/js/runtime-main.c563c180.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.5c42e52b.chunk.js",
-    "static/css/main.297d5656.chunk.css",
-    "static/js/main.f06763ce.chunk.js"
+    "static/js/2.63009b4f.chunk.js",
+    "static/css/main.7e0f509a.chunk.css",
+    "static/js/main.bbe170df.chunk.js"
   ]
 }
