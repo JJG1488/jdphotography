@@ -1,20 +1,27 @@
 * body {
+  /* background-color: blue; */
+  /* background-image: url('../../assets/image//detroit-reflection-cityscape-city-lights-wallpaper-preview.jpeg'); */
   /* border: solid red 10px; */
   margin: 0;
-  background-color: rgba(204, 36, 36, 0);
+  background-color: rgba(25, 25, 25, 1);
+  color: white;
   
 }
 
+.introduction {
+  margin-top: 10%;
+}
+
 .introduction-1 {
-  margin-top: 15%;
-  margin-bottom: 5%;
+  margin-top: 25%;
+  margin-bottom: 10%;
 }
 
 .code {
   /* border: solid red 10px; */
   /* background-color: hsl(0, 23%, 18%); */
   /* border-radius: 6px; */
-  /* color: rgb(9, 0, 0); */
+  /* color: rgb(243, 243, 243);s */
   /* display: block; */
   /* padding: 20px 20px; */
   /* text-align: left; */
@@ -57,7 +64,7 @@ img.d-block {
   /* box-shadow: 2px 4px px 0.25rem rgba(0, 0, 0, 0.3); */
   transform: translateX(800%);
   transition: transform 0.4 ease;
-  background-color: white;
+  /* background-color: white; */
   box-shadow: 2px 4px 9px 0.25rem rgba(0, 0, 0, 0.3);
 }
 

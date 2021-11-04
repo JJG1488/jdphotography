@@ -14,10 +14,9 @@ import LowerBodyNav from "../LowerBodyNav/LowerBodyNav";
 import LowerBodyContent from "../LowerBodyContent/LowerBodyContent";
 import ContactForm from '../ContactForm/ContactForm';
 import Subscribe from '../Subscribe/Subscribe';
+// import GoogleMap from '../GoogleMap/GoogleMap';
 
-
-
-
+// import FontAwesomeIcons from '../FontAwesomeIcon/FontAwesomeIcon';
 
 
 function Body() {
@@ -41,35 +40,39 @@ function Body() {
         })
     }
 
-    useEffect(checkBoxes)
+    useEffect(checkBoxes, [checkBoxes])
 
     return (
         <div className="body">
             <Container >
-                <h1 className="introduction-1">Place Holder Text for Introduction of Section</h1>
+
+                <h1 className="introduction">See What's In Stock</h1>
 
                 <Row className="product-row code box" fluid="true">
                     <ImageWithButtons />
-                    CSS: On Hover, zoom in
+                    <p>Click one of the pictures above to see whats in stock. Good Peeps has a great range of
+                        selection of hoodies, hats, and shirts.
+
+                    </p>
+                    {/* CSS: On Hover, zoom in */}
                 </Row>
 
-                <hr />
-
-                <h1 className="introduction-1">Place Holder Text for Introduction of Section</h1>
+                <h1 className="introduction-1">Hot Apparel</h1>
 
                 <Row>
                     <Col>
                         <LowerBodyNav className="aside code box" />
+                        <LowerBodyNav className="aside code box" />
                     </Col>
                 </Row>
 
-                <h1 className="introduction-1">Place Holder Text for Introduction of Section</h1>
+                <h1 className="introduction-1">About Good Peeps</h1>
 
                 <Row className="product-row code box">
                     <LowerBodyContent className="main code box" />
                 </Row>
 
-                <h1 className="introduction-1">Place Holder Text for Introduction of Section</h1>
+                <h1 className="introduction-1">Stay In The Know</h1>
 
                 <Row fluid="true">
                     <Col fluid="true">
@@ -77,7 +80,7 @@ function Body() {
                             set up button that leads to a form where you can submit questions
                             CSS: onHover expand Content/ words
                         </div> */}
-                        <ContactForm/>
+                        <ContactForm />
                     </Col>
                     <Col fluid="true">
                         {/* <div className="section code box subscribe">
@@ -88,16 +91,16 @@ function Body() {
                     </Col>
                 </Row>
 
-                <h1 className="introduction-1">Place Holder Text for Introduction of Section</h1>
+                {/* <h1 className="introduction-1">Find Us</h1> */}
 
                 <div className="section code box map">
-                    Large Map to show location with logo and any other supporting websites to find work.
-                    Facebook, Instagram, Twitter
+                    {/* <GoogleMap /> */}
+
+                    {/* <FontAwesomeIcons /> */}
+                    {/* Facebook, Instagram, Twitter */}
                 </div>
 
             </Container>
-
-
         </div>
     )
 
