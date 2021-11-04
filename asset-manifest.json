@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/jdphotography/static/css/main.7bc4cec0.chunk.css",
-    "main.js": "/jdphotography/static/js/main.dddcb1b7.chunk.js",
-    "main.js.map": "/jdphotography/static/js/main.dddcb1b7.chunk.js.map",
+    "main.css": "/jdphotography/static/css/main.7cd3550c.chunk.css",
+    "main.js": "/jdphotography/static/js/main.89f09540.chunk.js",
+    "main.js.map": "/jdphotography/static/js/main.89f09540.chunk.js.map",
     "runtime-main.js": "/jdphotography/static/js/runtime-main.196ee006.js",
     "runtime-main.js.map": "/jdphotography/static/js/runtime-main.196ee006.js.map",
     "static/css/2.0a9ec390.chunk.css": "/jdphotography/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.84330a2e.chunk.js": "/jdphotography/static/js/2.84330a2e.chunk.js",
-    "static/js/2.84330a2e.chunk.js.map": "/jdphotography/static/js/2.84330a2e.chunk.js.map",
+    "static/js/2.386c03c3.chunk.js": "/jdphotography/static/js/2.386c03c3.chunk.js",
+    "static/js/2.386c03c3.chunk.js.map": "/jdphotography/static/js/2.386c03c3.chunk.js.map",
     "static/js/3.60e7ce6c.chunk.js": "/jdphotography/static/js/3.60e7ce6c.chunk.js",
     "static/js/3.60e7ce6c.chunk.js.map": "/jdphotography/static/js/3.60e7ce6c.chunk.js.map",
     "index.html": "/jdphotography/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/jdphotography/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.7bc4cec0.chunk.css.map": "/jdphotography/static/css/main.7bc4cec0.chunk.css.map",
-    "static/js/2.84330a2e.chunk.js.LICENSE.txt": "/jdphotography/static/js/2.84330a2e.chunk.js.LICENSE.txt",
+    "static/css/main.7cd3550c.chunk.css.map": "/jdphotography/static/css/main.7cd3550c.chunk.css.map",
+    "static/js/2.386c03c3.chunk.js.LICENSE.txt": "/jdphotography/static/js/2.386c03c3.chunk.js.LICENSE.txt",
     "static/media/20210526_1646071.1a77eefa.jpg": "/jdphotography/static/media/20210526_1646071.1a77eefa.jpg",
     "static/media/Resized_20210228_042920.34301424.jpg": "/jdphotography/static/media/Resized_20210228_042920.34301424.jpg",
     "static/media/Resized_PicsArt_03-22-12.10.49(1).6fc40cb1.jpg": "/jdphotography/static/media/Resized_PicsArt_03-22-12.10.49(1).6fc40cb1.jpg",
@@ -28,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.196ee006.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.84330a2e.chunk.js",
-    "static/css/main.7bc4cec0.chunk.css",
-    "static/js/main.dddcb1b7.chunk.js"
+    "static/js/2.386c03c3.chunk.js",
+    "static/css/main.7cd3550c.chunk.css",
+    "static/js/main.89f09540.chunk.js"
   ]
 }
