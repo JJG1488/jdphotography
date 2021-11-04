@@ -87,6 +87,15 @@ box:nth-of-type(even) {
   box-shadow: 0px 0px 0px 0rem rgba(0, 0, 0, 0.3);
 }
 
+.icon {
+  justify-content: center;
+  margin-right: 10%;
+}
+
+.icon-container {
+  display: inline-flex;
+}
+
 .product-row:hover {
   /* border: solid red 10px; */
 }
