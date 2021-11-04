@@ -69,7 +69,9 @@ function Body() {
                 <h1 className="introduction-1">About Good Peeps</h1>
 
                 <Row className="product-row code box">
-                    <LowerBodyContent className="main code box" />
+                    <Col>
+                        <LowerBodyContent className="main code box" />
+                    </Col>
                 </Row>
 
                 <h1 className="introduction-1">Stay In The Know</h1>
