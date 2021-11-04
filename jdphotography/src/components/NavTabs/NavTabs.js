@@ -10,6 +10,9 @@ function NavTabs() {
     return (<div>
         <div className="container">
             <div className="row" id="navTabsRow">
+            This webpage is under construction. All of the functionality has not been added. This is mock web page<br/>
+            Web Designer: 
+            James Gault 586-229-6418
                 {/* <Canvas>
                         <ambientLight />
                         <pointLight position={[0, 1, 0]} />
@@ -21,7 +24,7 @@ function NavTabs() {
 
         <Navbar bg="dark" variant="dark" >
             {/* <Container > */}
-                <Navbar.Brand href="#home">
+                <Navbar.Brand href="/home">
                     <img
                         alt="Good Peeps Clothing Line Logo"
                         src={logo}
@@ -38,9 +41,9 @@ function NavTabs() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
                     <Nav className="me-auto" >
-                        <Nav.Link href="#home"><span id="nav-link-text">Home</span></Nav.Link>
-                        <Nav.Link href="#portfolio"><span id="nav-link-text">About</span></Nav.Link>
-                        <Nav.Link href="#contact"><span id="nav-link-text">Contact</span></Nav.Link>
+                        <Nav.Link href="../pages/Home/Home.js"><span id="nav-link-text">Home</span></Nav.Link>
+                        <Nav.Link href="../pages/About/About.js"><span id="nav-link-text">About</span></Nav.Link>
+                        <Nav.Link href="/"><span id="nav-link-text">Contact</span></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             {/* </Container> */}

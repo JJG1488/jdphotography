@@ -1,30 +1,31 @@
 // import logo from './logo.svg';
 import './App.css';
+// import Wrapper from './components/Wrapper/Wrapper';
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Home from './components/pages/Home/Home';
+// import About from './components/pages/About/About';s
+// import Contact from './components/pages/Contact/Contact';
 import NavTabs from './components/NavTabs/NavTabs';
-import Body from './components/Body/Body';
 import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>This is your website Pop, lets work</h1>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-      <NavTabs />
-      <Body />
-      <Footer />
+      {/* <Router basename="/"> */}
+        {/* <Wrapper> */}
+          {/* <Switch>
+            <NavTabs />
+            <Route path="/" component={Home} />
+            <Route path="about" component={About} />
+            <Route path="contact" component={Contact } />
+            <Route path="home" element={Home} />
+          </Switch> */}
+
+          <NavTabs />
+          <Home/>
+          <Footer />
+        {/* </Wrapper> */}
+      {/* </Router> */}
 
     </div>
   );
