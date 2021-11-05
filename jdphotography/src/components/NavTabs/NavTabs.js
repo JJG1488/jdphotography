@@ -49,7 +49,6 @@ function NavTabs() {
         {/* </Navbar> */}
 
 
-
         <Navbar bg="dark" variant="dark" expand="md" id="nav-data">
             <Navbar.Brand href="#home"><small><img
                 alt="Good Peeps Clothing Line Logo"
@@ -58,12 +57,12 @@ function NavTabs() {
                 height="30"
                 className="d-inline-block align-top"
             /></small>
-                    Good Peeps
-                
+                Good Peeps
+
                 <span className="logo"> <p>But don't get it twisted</p></span></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="me-auto">
+            <Navbar.Collapse >
+                <Nav  className="justify-content-end" activeKey="/home">
                     <Nav.Link href="#home"><span id="nav-link-text">Home</span></Nav.Link>
                     <Nav.Link href="#about"><span id="nav-link-text">About</span></Nav.Link>
                     <Nav.Link href="#contact"><span id="nav-link-text">Contact</span></Nav.Link>
