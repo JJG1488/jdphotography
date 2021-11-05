@@ -1,45 +1,45 @@
-// import React, { Component } from 'react';
-// import NavTabs from './NavTabs/NavTabs';
-// import Home from './pages/RenderHome/RenderHome';
-// import About from './pages/RenderAbout/RenderAbout';
-// import Contact from './pages/RenderContact/RenderContact';
+import React, { Component } from 'react';
+import NavTabs from './NavTabs/NavTabs';
+import Home from './pages/RenderHome/RenderHome';
+import About from './pages/RenderAbout/RenderAbout';
+import Contact from './pages/RenderContact/RenderContact';
 
 
-// class GoodPeepsContainer extends Component {
+class GoodPeepsContainer extends Component {
 
-//     state = {
-//         currentPage: "Home"
-//     };
+    state = {
+        currentPage: "Home"
+    };
 
-//     handlePageChange = page => {
-//         this.setState({ currentPage: page });
-//     };
+    handlePageChange = page => {
+        this.setState({ currentPage: page });
+    };
 
-//     renderPage = () => {
-//         if (this.state.currentPage === "Home") {
-//             return <Home />;
-//         } else if (this.state.currentPage === "About") {
-//             return <About />;
-//         } else {
-//             return <Contact />;
-//         }
-//     };
+    renderPage = () => {
+        if (this.state.currentPage === "Home") {
+            return <Home />;
+        } else if (this.state.currentPage === "About") {
+            return <About />;
+        } else {
+            return <Contact />;
+        }
+    };
 
-//     render() {
-//         return (
-//             <div>
-//                 <NavTabs
-//                     currentPage={this.state.currentPage}
-//                     handlePageChange={this.handlePageChange}
-//                 />
+    render() {
+        return (
+            <div>
+                <NavTabs
+                    currentPage={this.state.currentPage}
+                    handlePageChange={this.handlePageChange}
+                />
 
-//                 <div>
-//                     {this.renderPage()}
-//                 </div>
+                <div>
+                    {this.renderPage()}
+                </div>
 
-//             </div>
-//         );
-//     }
+            </div>
+        );
+    }
 
-// }
-// export default GoodPeepsContainer;
+}
+export default GoodPeepsContainer;

@@ -1,10 +1,11 @@
-* body {
-  /* background-color: blue; */
+body {
   /* background-image: url('../../assets/image//detroit-reflection-cityscape-city-lights-wallpaper-preview.jpeg'); */
-  /* border: solid red 10px; */
+  border: solid red 10px;
   margin: 0;
   background-color: rgba(25, 25, 25, 1);
   color: white;
+  border-radius: 10px;
+  overflow-x: hidden;
   
 }
 
@@ -18,6 +19,7 @@
 }
 
 .code {
+  /* border-radius: 10px; */
   /* border: solid red 10px; */
   /* background-color: hsl(0, 23%, 18%); */
   /* border-radius: 6px; */
@@ -29,7 +31,7 @@
 }
 
 img.d-block {
-  /* border: solid red 10px; */
+  /* border: solid white 10px; */
   max-height: 400px;
 }
 
@@ -48,6 +50,7 @@ img.d-block {
 .section,
 .aside,
 .footer {
+  /* border-radius: 10px; */
   margin: 0 1.5% 24px 1.5%;
 }
 /* .section code box {
@@ -55,30 +58,29 @@ img.d-block {
   border: solid red 10px;
 } */
 
-.box {
+/* .box {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 10px;
   border-radius: 10px;
-  /* box-shadow: 2px 4px px 0.25rem rgba(0, 0, 0, 0.3); */
   transform: translateX(800%);
   transition: transform 0.4 ease;
-  /* background-color: white; */
   box-shadow: 2px 4px 9px 0.25rem rgba(0, 0, 0, 0.3);
-}
+} */
 
-box:nth-of-type(even) {
+/* box:nth-of-type(even) {
   transform: translateX(-800%);
 
-}
+} */
 
-.box.show {
+/* .box.show {
   transform: translateX(0);
 
-}
+} */
 
 .product-row {
+  
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;

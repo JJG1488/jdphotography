@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 // import Container from "react-bootstrap/Container";
 import "./styles.css";
 import logo from '../../assets/image/Professional_photo/20210526_1646071.jpg';
-import MainSlideShow from '../MainSlideShow/MainSlideShow';
+// import MainSlideShow from '../MainSlideShow/MainSlideShow';
 
 function NavTabs() {
     return (<div>
@@ -22,9 +22,9 @@ function NavTabs() {
             </div>
         </div>
 
-        <Navbar bg="dark" variant="dark" >
+        {/* <Navbar bg="dark" variant="dark" > */}
             {/* <Container > */}
-                <Navbar.Brand href="/home">
+                {/* <Navbar.Brand href="/home">
                     <img
                         alt="Good Peeps Clothing Line Logo"
                         src={logo}
@@ -41,15 +41,41 @@ function NavTabs() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
                     <Nav className="me-auto" >
-                        <Nav.Link href="../pages/Home/Home.js"><span id="nav-link-text">Home</span></Nav.Link>
-                        <Nav.Link href="../pages/About/About.js"><span id="nav-link-text">About</span></Nav.Link>
+                        <Nav.Link href="/home"><span id="nav-link-text">Home</span></Nav.Link>
+                        <Nav.Link href="/about"><span id="nav-link-text">About</span></Nav.Link>
                         <Nav.Link href="/"><span id="nav-link-text">Contact</span></Nav.Link>
                     </Nav>
-                </Navbar.Collapse>
+                </Navbar.Collapse> */}
             {/* </Container> */}
-        </Navbar>
+        {/* </Navbar> */}
 
-        <MainSlideShow />
+
+
+        <Navbar bg="dark" variant="dark" expand="md" id="nav-data">
+                <Navbar.Brand href="#home"><img
+                        alt="Good Peeps Clothing Line Logo"
+                        src={logo}
+                        width="30"
+                        height="30"
+                        className="d-inline-block align-top"
+                    /><span className="logo">
+                        <h1>Good Peeps</h1>
+                        
+                    </span>
+                    <p>But don't get it twisted</p></Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="me-auto">
+                    <Nav.Link href="#home"><span id="nav-link-text">Home</span></Nav.Link>
+                    <Nav.Link href="#about"><span id="nav-link-text">About</span></Nav.Link>
+                    <Nav.Link href="#contact"><span id="nav-link-text">Contact</span></Nav.Link>
+                    {/* <Nav.Link href="https://1drv.ms/w/s!AoCauJZ3EHFdgwMB4s6gnDG-WQOe" rel="noreferrer" target="_blank"><span id="nav-link-text">Resume</span></Nav.Link> */}
+                    </Nav>
+                </Navbar.Collapse>
+            </Navbar>
+
+            {/* <MainSlideShow /> */}
+
 
 
     </div>)

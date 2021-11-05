@@ -7,6 +7,10 @@ import image1 from '../../assets/image/Hoodies_Curated/Resized_PicsArt_11-03-12.
 import image2 from '../../assets/image/Hoodies_Curated/Resized_PicsArt_11-03-12.19.40.jpg';
 import image3 from '../../assets/image/Hoodies_Curated/Resized_PicsArt_11-03-12.30.04.jpg';
 import image4 from '../../assets/image/Hoodies_Curated/Resized_PicsArt_11-03-12.41.15.jpg';
+import image5 from '../../assets/image/Hoodies_Curated/Resized_20211104_123546.jpg';
+import image6 from '../../assets/image/Hoodies_Curated/Resized_20211104_132819.jpg';
+import image7 from '../../assets/image/Hoodies_Curated/Resized_20211104_133011.jpg';
+import image8 from '../../assets/image/Hoodies_Curated/Resized_20210228_042920.jpg';
 import './styles.css';
 
 function LowerBodyNav() {
@@ -34,6 +38,26 @@ function LowerBodyNav() {
 
             <Figure>
               <Figure.Image className="body-figure box" src={image4} >
+              </Figure.Image>
+            </Figure>
+
+            <Figure>
+              <Figure.Image className="body-figure box" src={image5} >
+              </Figure.Image>
+            </Figure>
+
+            <Figure>
+              <Figure.Image className="body-figure box" src={image6} >
+              </Figure.Image>
+            </Figure>
+
+            <Figure>
+              <Figure.Image className="body-figure box" src={image7} >
+              </Figure.Image>
+            </Figure>
+
+            <Figure>
+              <Figure.Image className="body-figure box" src={image8} >
               </Figure.Image>
             </Figure>
 
