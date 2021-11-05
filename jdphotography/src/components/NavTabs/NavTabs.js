@@ -10,9 +10,8 @@ function NavTabs() {
     return (<div>
         <div className="container">
             <div className="row" id="navTabsRow">
-            This webpage is under construction. All of the functionality has not been added. This is mock web page<br/>
-            Web Designer: 
-            James Gault 586-229-6418
+                This webpage is under construction. All of the functionality has not been added. Thank You For Your Patience.<br />
+
                 {/* <Canvas>
                         <ambientLight />
                         <pointLight position={[0, 1, 0]} />
@@ -23,8 +22,8 @@ function NavTabs() {
         </div>
 
         {/* <Navbar bg="dark" variant="dark" > */}
-            {/* <Container > */}
-                {/* <Navbar.Brand href="/home">
+        {/* <Container > */}
+        {/* <Navbar.Brand href="/home">
                     <img
                         alt="Good Peeps Clothing Line Logo"
                         src={logo}
@@ -46,35 +45,34 @@ function NavTabs() {
                         <Nav.Link href="/"><span id="nav-link-text">Contact</span></Nav.Link>
                     </Nav>
                 </Navbar.Collapse> */}
-            {/* </Container> */}
+        {/* </Container> */}
         {/* </Navbar> */}
 
 
 
         <Navbar bg="dark" variant="dark" expand="md" id="nav-data">
-                <Navbar.Brand href="#home"><img
-                        alt="Good Peeps Clothing Line Logo"
-                        src={logo}
-                        width="30"
-                        height="30"
-                        className="d-inline-block align-top"
-                    /><span className="logo">
-                        <h1>Good Peeps</h1>
-                        
-                    </span>
-                    <p>But don't get it twisted</p></Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
+            <Navbar.Brand href="#home"><small><img
+                alt="Good Peeps Clothing Line Logo"
+                src={logo}
+                width="30"
+                height="30"
+                className="d-inline-block align-top"
+            /></small>
+                    Good Peeps
+                
+                <span className="logo"> <p>But don't get it twisted</p></span></Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="me-auto">
                     <Nav.Link href="#home"><span id="nav-link-text">Home</span></Nav.Link>
                     <Nav.Link href="#about"><span id="nav-link-text">About</span></Nav.Link>
                     <Nav.Link href="#contact"><span id="nav-link-text">Contact</span></Nav.Link>
                     {/* <Nav.Link href="https://1drv.ms/w/s!AoCauJZ3EHFdgwMB4s6gnDG-WQOe" rel="noreferrer" target="_blank"><span id="nav-link-text">Resume</span></Nav.Link> */}
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar>
+                </Nav>
+            </Navbar.Collapse>
+        </Navbar>
 
-            {/* <MainSlideShow /> */}
+        {/* <MainSlideShow /> */}
 
 
 
