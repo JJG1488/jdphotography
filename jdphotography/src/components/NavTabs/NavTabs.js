@@ -66,6 +66,11 @@ function NavTabs() {
                     <Nav.Link href="#home"><span id="nav-link-text">Home</span></Nav.Link>
                     <Nav.Link href="#about"><span id="nav-link-text">About</span></Nav.Link>
                     <Nav.Link href="#contact"><span id="nav-link-text">Contact</span></Nav.Link>
+                    <Nav.Link href="#hoodies"><span id="nav-link-text">Hoodies</span></Nav.Link>
+                    <Nav.Link href="#hats"><span id="nav-link-text">Hats</span></Nav.Link>
+                    <Nav.Link href="#shirts"><span id="nav-link-text">Shirts</span></Nav.Link>
+                    <Nav.Link href="#lilpeeps"><span id="nav-link-text">Lil Peeps</span></Nav.Link>
+                    
                     {/* <Nav.Link href="https://1drv.ms/w/s!AoCauJZ3EHFdgwMB4s6gnDG-WQOe" rel="noreferrer" target="_blank"><span id="nav-link-text">Resume</span></Nav.Link> */}
                 </Nav>
             </Navbar.Collapse>
