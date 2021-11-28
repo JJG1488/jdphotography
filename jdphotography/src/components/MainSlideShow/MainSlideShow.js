@@ -2,18 +2,18 @@ import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import image1 from '../../assets/image/Shirts/Resized_PicsArt_06-21-06.22.14.jpg';
 import image2 from '../../assets/image/Hoodies_Curated/Resized_PicsArt_11-03-12.19.40.jpg';
-import image3 from '../../assets/image/Shirts/Resized_20210228_042920.jpg';
+// import image3 from '../../assets/image/Shirts/Resized_20210228_042920.jpg';
 
 
 
 function MainSlideShow() {
-    return (<div>
+    return (<div style={{display: 'inline-block', margin: '0 auto', width: '100%', height: '80%'}}>
         <Carousel>
             <Carousel.Item interval={1000}>
                 <img className="d-block w-100"
                     src={image1}
                     alt="First slide"
-                    style={{display:"inline-block", maxHeight:300}}
+                    style={{display:"inline-block", maxHeight:300, maxWidth:800}}
                 />
                 <Carousel.Caption>
                     {/* <h3>First Article of Clothing</h3>
@@ -24,7 +24,7 @@ function MainSlideShow() {
                 <img className="d-block w-100"
                     src={image2}
                     alt="Second slide"
-                    style={{display:"inline-block", maxHeight:300}}
+                    style={{display:"inline-block", maxHeight:300, maxWidth:800}}
                 />
                 <Carousel.Caption>
                     {/* <h3>Second Article of Clothing</h3>
@@ -32,10 +32,10 @@ function MainSlideShow() {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <img className="d-block w-100 h-100"  
-                    src={image3}
+                <img className="d-block w-100"  
+                    src={image2}
                     alt="Third slide"
-                    style={{display:"inline-block", maxHeight:300}}
+                    style={{display:"inline-block", maxHeight:300, maxWidth:800}}
                 />
                 <Carousel.Caption>
                     {/* <h3>Third Article of Clothing</h3>

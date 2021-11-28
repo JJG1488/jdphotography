@@ -2,34 +2,38 @@
 .hat-button:hover,
 .shirt-button:hover {
   /* border: solid green 10px; */
-  width: 300px;
-  height: 300px;
-  transition-duration: 1s;
+  width: 400px;
+  height: 400px;
+  transform: rotate(10deg);
+  transition: transform 1s ease-in-out;
 }
 
 
 .hoodie-button {
   /* border: solid green 10px; */
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   /* padding: 10px; */
   box-shadow: 2px 4px 9px 0.25rem rgba(0, 0, 0, 0.3);
+  transform: rotate(-10deg)
 }
 
 .hat-button {
   /* border: solid green 10px; */
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   /* padding: 10px; */
   box-shadow: 2px 4px 9px 0.25rem rgba(0, 0, 0, 0.3);
+  transform: rotate(-10deg);
 }
 
 .shirt-button {
   /* border: solid green 10px; */
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   /* padding: 10px; */
   box-shadow: 2px 4px 9px 0.25rem rgba(0, 0, 0, 0.3);
+  transform: rotate(-10deg);
 }
 
 .image-button {
