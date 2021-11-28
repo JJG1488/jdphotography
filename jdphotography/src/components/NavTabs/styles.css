@@ -41,3 +41,8 @@ img.d-block {
 }
 
 #nav-link-text {color: white}
+
+.btn-close {
+  color: white;
+  background-color: white;
+}
