@@ -7,8 +7,8 @@ import Button from 'react-bootstrap/Button';
 
 function LowerBodyContent() {
     return (
-        <div>
-            <Figure>
+        <div style={{ display: 'grid', margin: '20%' }}>
+            <Figure style={{}}>
                 <Figure.Image
                     width={171}
                     height={180}
@@ -16,6 +16,7 @@ function LowerBodyContent() {
                     src={bodyContentPhoto}
                     className="body-content-img box"
                     fluid
+                    style={{border: 'solid red 3px'}}
                 />
                 <Figure.Caption>
                     <p className="body-paragraph box">"Sed ut perspiciatis unde eaque ipsa quae ab illo inventore veritatis
