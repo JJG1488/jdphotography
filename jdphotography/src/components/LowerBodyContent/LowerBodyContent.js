@@ -25,7 +25,6 @@ function LowerBodyContent() {
                         eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
                         quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
                         esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-
                     </p>
                     <Button variant="primary" href="#about">
                         Learn More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
