@@ -91,10 +91,12 @@ function NavTabs() {
             </Button> */}
 
             <Offcanvas show={show} onHide={handleClose} >
-                <Offcanvas.Header closeButton style={{ border: 'dodgerblue solid 10px', backgroundColor: 'orange', color: "dodgerblue"}}>
+                <Offcanvas.Header closeButton style={{ border: 'dodgerblue solid 10px', backgroundColor: 'rgba(25, 25, 25, 1)', color: "white"}}>
                     <Offcanvas.Title>Nav</Offcanvas.Title>
                 </Offcanvas.Header>
-                <Offcanvas.Body style={{display:'grid', gridTemplateColumns: 'repeat(3, 1fr)', backgroundColor: 'orange', color: 'orange'}}>
+                {/* color: white;
+  background-color: rgba(25, 25, 25, 1); */}
+                <Offcanvas.Body style={{display:'grid', gridTemplateColumns: 'repeat(3, 1fr)', backgroundColor: 'rgba(25, 25, 25, 1)', color: 'orange'}}>
                 <Nav className="justify-content-end" activeKey="/home">
                         <Nav.Link href="#home"><span id="nav-link-text">Home</span></Nav.Link>
                         <Nav.Link href="#about"><span id="nav-link-text">About</span></Nav.Link>
