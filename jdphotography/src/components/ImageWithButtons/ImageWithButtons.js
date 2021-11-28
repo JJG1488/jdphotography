@@ -10,64 +10,69 @@ import lilPeepsImage from '../../assets/image/Lil_Peeps/Resized_20211104_132854.
 
 
 function ImageWithButtons() {
-    return (<div>
+    return (<div style={{ display: 'grid', gap: '20px', justifyContent: 'center', margin: '20% auto' }}>
 
-<Button href="#hoodies" className="image-button">
         <Figure>
-            <Figure.Image
-                width={200}
-                height={200}
-                alt="171x180"
-                src={hoodieImage}
-                className="hoodie-button box"
-            />
+            <Button href="#hoodies" className="image-button" style={{ backgroundColor: 'white', borderColor: "white" }}>
+                <Figure.Image
+                    href="#hoodies"
+                    width={300}
+                    height={300}
+                    alt="300x300"
+                    src={hoodieImage}
+                    className="hoodie-button box"
+                />
+            </Button>
             {/* <Button variant="primary">See Hoodies</Button> */}
         </Figure>
-        </Button>
 
 
-        <Button href="#contact">
+
+
         <Figure>
-            <Figure.Image
-                width={200}
-                height={200}
-                alt="171x180"
-                src={hatImage}
-                className="hat-button box"
-            />
+            <Button href="#contact" style={{ backgroundColor: 'white', borderColor: "white" }}>
+                <Figure.Image
+                    width={400}
+                    height={400}
+                    alt="171x180"
+                    src={hatImage}
+                    className="hat-button box"
+                />
+            </Button>
             {/* <Button variant="primary">See Hats</Button> */}
         </Figure>
-        </Button>
-
-        <br/>
 
 
-        <Button href="#contact">
+        
         <Figure>
+        <Button href="#contact" style={{ backgroundColor: 'white', borderColor: "white" }}>
             <Figure.Image
-                width={200}
-                height={200}
+                width={400}
+                height={400}
                 alt="171x180"
                 src={shirtImage}
                 className="shirt-button box"
             />
+            </Button>
             {/* <Button variant="primary">See Shirts</Button> */}
         </Figure>
-        </Button>
+        
 
 
-        <Button href="#contact">
-            <Figure>
-                <Figure.Image
-                    width={200}
-                    height={200}
-                    alt="171x180"
-                    src={lilPeepsImage}
-                    className="shirt-button box"
-                />
-                {/* <Button variant="primary">See Shirts</Button> */}
-            </Figure>
-        </Button>
+        
+        <Figure>
+        <Button href="#contact" style={{ backgroundColor: 'white', borderColor: "white" }}>
+            <Figure.Image
+                width={400}
+                height={400}
+                alt="171x180"
+                src={lilPeepsImage}
+                className="shirt-button box"
+            />
+            </Button>
+            {/* <Button variant="primary">See Shirts</Button> */}
+        </Figure>
+        
     </div>)
 }
 

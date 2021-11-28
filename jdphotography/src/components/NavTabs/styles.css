@@ -11,8 +11,9 @@
 
 }
 
-.nav-data {
-  background-color: rgba(25, 25, 25, 1);
+nav #nav-data {
+  position: sticky;
+  z-index: 1;
 }
 
 
@@ -36,6 +37,6 @@ img.d-block {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-left: 50%; */
+
 
 }

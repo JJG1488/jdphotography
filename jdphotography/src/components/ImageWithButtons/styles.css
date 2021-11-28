@@ -10,24 +10,32 @@
 
 .hoodie-button {
   /* border: solid green 10px; */
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   /* padding: 10px; */
   box-shadow: 2px 4px 9px 0.25rem rgba(0, 0, 0, 0.3);
 }
 
 .hat-button {
   /* border: solid green 10px; */
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   /* padding: 10px; */
   box-shadow: 2px 4px 9px 0.25rem rgba(0, 0, 0, 0.3);
 }
 
 .shirt-button {
   /* border: solid green 10px; */
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   /* padding: 10px; */
   box-shadow: 2px 4px 9px 0.25rem rgba(0, 0, 0, 0.3);
+}
+
+.image-button {
+  /* border: solid red 20px; */
+}
+
+a .btn {
+  /* border: solid red 20px; */
 }

@@ -10,10 +10,10 @@ function MainSlideShow() {
     return (<div>
         <Carousel>
             <Carousel.Item interval={1000}>
-                <img
-                    className="d-block w-100"
+                <img className="d-block w-100"
                     src={image1}
                     alt="First slide"
+                    style={{display:"inline-block", maxHeight:300}}
                 />
                 <Carousel.Caption>
                     {/* <h3>First Article of Clothing</h3>
@@ -21,10 +21,10 @@ function MainSlideShow() {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={500}>
-                <img
-                    className="d-block w-100"
+                <img className="d-block w-100"
                     src={image2}
                     alt="Second slide"
+                    style={{display:"inline-block", maxHeight:300}}
                 />
                 <Carousel.Caption>
                     {/* <h3>Second Article of Clothing</h3>
@@ -32,10 +32,10 @@ function MainSlideShow() {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <img
-                    className="d-block w-100"
+                <img className="d-block w-100 h-100"  
                     src={image3}
                     alt="Third slide"
+                    style={{display:"inline-block", maxHeight:300}}
                 />
                 <Carousel.Caption>
                     {/* <h3>Third Article of Clothing</h3>
