@@ -59,7 +59,7 @@ function NavTabs() {
             {/* </Navbar> */}
 
 
-            <Navbar bg="dark" variant="dark" expand="md" id="nav-data">
+            <Navbar bg="dark" variant="dark" expand="md" id="nav-data" style={{ position: "fixed", zIndex: 1, width: '100%', top: '0' }}>
                 <Navbar.Brand href="#home"><small><img
                     alt="Good Peeps Clothing Line Logo"
                     src={logo}
@@ -90,11 +90,11 @@ function NavTabs() {
                 Launch
             </Button> */}
 
-            <Offcanvas show={show} onHide={handleClose}>
-                <Offcanvas.Header closeButton>
+            <Offcanvas show={show} onHide={handleClose} >
+                <Offcanvas.Header closeButton style={{ border: 'dodgerblue solid 10px', backgroundColor: 'orange', color: "dodgerblue"}}>
                     <Offcanvas.Title>Nav</Offcanvas.Title>
                 </Offcanvas.Header>
-                <Offcanvas.Body style={{display:'grid', gridTemplateColumns: 'repeat(3, 1fr)'}}>
+                <Offcanvas.Body style={{display:'grid', gridTemplateColumns: 'repeat(3, 1fr)', backgroundColor: 'orange', color: 'orange'}}>
                 <Nav className="justify-content-end" activeKey="/home">
                         <Nav.Link href="#home"><span id="nav-link-text">Home</span></Nav.Link>
                         <Nav.Link href="#about"><span id="nav-link-text">About</span></Nav.Link>
