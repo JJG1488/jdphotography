@@ -12,6 +12,8 @@ import lilPeepsImage from '../../assets/image/Lil_Peeps/Resized_20211104_132854.
 function ImageWithButtons() {
     return (<div style={{ display: 'grid', gap: '20px', justifyContent: 'center', margin: '20% auto' }}>
 
+    <h2 style={{margin: '20% auto'}}>Shop The Collection</h2>
+
         <Figure>
             <Button href="#hoodies" className="image-button" style={{ backgroundColor: 'white', borderColor: "white" }}>
                 <Figure.Image

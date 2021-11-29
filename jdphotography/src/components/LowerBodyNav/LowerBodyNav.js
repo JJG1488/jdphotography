@@ -21,6 +21,8 @@ function LowerBodyNav() {
           <Col className="body-col"> */}
           {/* <Figure> */}
 
+          <h2 style={{margin: '30% auto'}}>Hot Apparel</h2>
+
             <Figure>
               <Figure.Image className="body-figure box" src={image1} >
               </Figure.Image>

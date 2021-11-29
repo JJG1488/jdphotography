@@ -8,23 +8,19 @@ import Button from 'react-bootstrap/Button';
 function LowerBodyContent() {
     return (
         <div style={{ display: 'grid', margin: '20%' }}>
-            <Figure style={{}}>
+        <h2 style={{margin: '40% auto'}}>About Good Peeps</h2>
+            <Figure>
                 <Figure.Image
                     width={171}
                     height={180}
                     alt="171x180"
                     src={bodyContentPhoto}
-                    className="body-content-img box"
+                    className="body-content-img box inline-block"
                     fluid
-                    style={{border: 'solid red 3px'}}
+                    style={{display: 'inline-block', borderRadius: '50%'}}
                 />
                 <Figure.Caption>
-                    <p className="body-paragraph box">"Sed ut perspiciatis unde eaque ipsa quae ab illo inventore veritatis
-                        et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-                        quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-                        eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
-                        quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
-                        esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                    <p className="body-paragraph box">The Good Peeps brand is about encouraging everyone to be true to themselves and others and standing up for good natured individuals in a time where good people seem scarce.
                     </p>
                     <Button variant="primary" href="#about">
                         Learn More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
