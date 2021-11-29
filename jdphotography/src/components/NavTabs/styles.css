@@ -11,10 +11,6 @@
 
 }
 
-div #nav-data {
- 
-}
-
 
 img {
   float: left;
@@ -32,17 +28,99 @@ img.d-block {
 }
 
 #basic-navbar-nav {
-  /* border: red solid 10px; */
-  display: flex;
+  border: red solid 10px;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
 
 
 }
 
-#nav-link-text {color: white}
+#nav-link-text {
+  display: inline-block;
+  width: 100vw;
+  color: white;
+  text-decoration: underline;
+  text-decoration-color:white;
+}
+
+#nav-link-text:hover {
+  /* background-color: white;
+  color:rgba(25, 25, 25, 1); */
+  color:rgba(25, 25, 25, 1);
+  text-decoration: underline;
+  text-decoration-color:black;
+  /* grid-row-start: 1;
+  grid-row-end: 7; */
+  
+}
+
+#nav-link-text:link {
+
+}
 
 .btn-close {
   color: white;
   background-color: white;
+}
+
+.justify-content-center {
+  /* grid-row-start: 1;
+  grid-row-end: 7; */
+}
+
+.justify-content-center:hover {
+  /* background-color: white;
+  color:rgba(25, 25, 25, 1) */
+
+}
+
+/* 
+<a href="#lilpeeps" data-rr-ui-event-key="#lilpeeps" class="nav-link">
+<span id="nav-link-text">Lil Peeps</span></a>
+*/
+
+a.nav-link {
+  /* background-color:rgba(250, 25, 25, 1); */
+  display: inline-block;
+  width: 100vw; 
+}
+
+
+a:link {
+  /* background-color: white;
+  color:rgba(25, 25, 25, 1);
+  border: white solid 3px; */
+  color: purple;
+  text-decoration: underline;
+  text-decoration-color:purple;
+}
+
+a.nav-link::after {
+  /* border-bottom: 2px orange solid;  */
+}
+
+div .justify-content-center {
+  /* border: 1px solid rgba(250, 25, 25, 1); */
+  display: grid;
+  grid-template-areas: repeat(7, 1fr) / repeat(1, 1fr);
+}
+
+.pre-links {
+  display: grid;
+  overflow: visible;
+  align-content: space-around;
+  grid-area: repeat(8, 1fr) / repeat(1, 1fr);
+  
+}
+
+.pre-links a {
+  /* border: red solid 2px; */
+  /* color:rgba(25, 25, 25, 1) */
+}
+.pre-links a:hover {
+  /* border: green solid 4px; */
+  background-color: white;
+  color:rgba(25, 25, 25, 1);
+  
 }
