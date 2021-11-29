@@ -40,7 +40,7 @@ function Home() {
             <MainSlideShow />
 
             <ImageWithButtons />
-            <p>Good Peeps has a great range of hoodies, hats, and shirts.</p>
+            {/* <p>Good Peeps has a great range of hoodies, hats, and shirts.</p> */}
 
 
             <LowerBodyNav />
