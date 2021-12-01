@@ -20,7 +20,7 @@ function NavTabs() {
     return (<div>
         <div className="container">
             <div className="row" id="navTabsRow">
-                This webpage is under construction. All of the functionality has not been added. Thank You For Your Patience.<br />
+                {/* This webpage is under construction. All of the functionality has not been added. Thank You For Your Patience.<br /> */}
 
                 {/* <Canvas>
                         <ambientLight />
@@ -67,7 +67,7 @@ function NavTabs() {
                 height="30"
                 className="d-inline-block align-top"
             /></small>
-                Good Peeps
+                <span className="good-peeps">Good Peeps</span>
 
                 <span className="logo"> <p>But don't get it twisted</p></span></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleShow} />
@@ -99,19 +99,19 @@ function NavTabs() {
             <Offcanvas.Body style={{ display:'grid', backgroundColor: 'rgba(25, 25, 25, 1)', color: 'orange' }}>
                 <Nav className="justify-content-center" activeKey="/home">
                     <pre className="pre-links" >
-                        <Nav.Link href="#home"><span id="nav-link-text">Home</span></Nav.Link>
+                        <Nav.Link href="/#/home"><span id="nav-link-text">Home</span></Nav.Link>
                         <hr/>
-                        <Nav.Link href="#about"><span id="nav-link-text">About</span></Nav.Link>
+                        <Nav.Link href="/#/about"><span id="nav-link-text">About</span></Nav.Link>
                         <hr/>
-                        <Nav.Link href="#contact"><span id="nav-link-text">Contact</span></Nav.Link>
+                        <Nav.Link href="/#/contact"><span id="nav-link-text">Contact</span></Nav.Link>
                         <hr/>
-                        <Nav.Link href="#hoodies"><span id="nav-link-text">Hoodies</span></Nav.Link>
+                        <Nav.Link href="/#/hoodies"><span id="nav-link-text">Hoodies</span></Nav.Link>
                         <hr/>
-                        <Nav.Link href="#hats"><span id="nav-link-text">Hats</span></Nav.Link>
+                        <Nav.Link href="/#/hats"><span id="nav-link-text">Hats</span></Nav.Link>
                         <hr/>
-                        <Nav.Link href="#shirts"><span id="nav-link-text">Shirts</span></Nav.Link>
+                        <Nav.Link href="/#/shirts"><span id="nav-link-text">Shirts</span></Nav.Link>
                         <hr/>
-                        <Nav.Link href="#lilpeeps"><span id="nav-link-text">Lil Peeps</span></Nav.Link>
+                        <Nav.Link href="/#/lilpeeps"><span id="nav-link-text">Lil Peeps</span></Nav.Link>
                     </pre>
                     {/* <Nav.Link href="https://1drv.ms/w/s!AoCauJZ3EHFdgwMB4s6gnDG-WQOe" rel="noreferrer" target="_blank"><span id="nav-link-text">Resume</span></Nav.Link> */}
                 </Nav>

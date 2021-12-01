@@ -3,7 +3,7 @@ import NavTabs from './NavTabs/NavTabs';
 import Home from './pages/RenderHome/RenderHome';
 import About from './pages/RenderAbout/RenderAbout';
 import Contact from './pages/RenderContact/RenderContact';
-import Hoodies from './pages/Hoodies/Hoodies'
+import Hoodies from './pages/Hoodies/Hoodies';
 
 
 class GoodPeepsContainer extends Component {

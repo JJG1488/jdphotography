@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import Wrapper from './components/Wrapper/Wrapper';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/pages/RenderHome/RenderHome';
 import About from './components/pages/About/About';
 import Contact from './components/pages/Contact/Contact';
@@ -19,17 +19,17 @@ function App() {
         <Wrapper>
 
           <NavTabs />
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/home" component={Home} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/contact" component={Contact} />
-            <Route exact path="/hoodies" component={Hoodies} />
-            <Route exact path="/hats" component={Hats} />
-            <Route exact path="/shirts" component={Shirts} />
-            <Route exact path="/lilpeeps" component={LilPeeps} />
+          <Routes>
+            <Route path="/" element={<Home/>} />
+            <Route path="home" element={<Home/>} />
+            <Route exact path="/about" element={<About/>} />
+            <Route exact path="/contact" element={<Contact/>} />
+            <Route exact path="/hoodies" element={<Hoodies/>} />
+            <Route exact path="/hats" element={<Hats/>} />
+            <Route exact path="/shirts" element={<Shirts/>} />
+            <Route exact path="/lilpeeps" element={<LilPeeps/>} />
 
-          </Switch>
+          </Routes>
           <Footer />
 
         </Wrapper>
