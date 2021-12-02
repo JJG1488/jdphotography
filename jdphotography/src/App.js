@@ -15,7 +15,7 @@ import LilPeeps from './components/pages/LilPeeps/LilPeeps';
 function App() {
   return (
     <div className="App">
-      <Router basename="/jdphotography/">
+      <Router basename="/#">
         <Wrapper>
 
           <NavTabs/>
