@@ -7,7 +7,8 @@ import { useState } from 'react';
 import "./styles.css";
 import logo from '../../assets/image/Professional_photo/20210526_1646071.jpg';
 // import MainSlideShow from '../MainSlideShow/MainSlideShow';
-import Offcanvas from 'react-bootstrap/Offcanvas'
+import Offcanvas from 'react-bootstrap/Offcanvas';
+import {Link } from "react-router-dom";
 
 function NavTabs() {
 
@@ -97,21 +98,28 @@ function NavTabs() {
             {/* color: white;
   background-color: rgba(25, 25, 25, 1); */}
             <Offcanvas.Body style={{ display:'grid', backgroundColor: 'rgba(25, 25, 25, 1)', color: 'orange' }}>
-                <Nav className="justify-content-center" activeKey="/home">
+                <Nav className="justify-content-center" activeKey="/">
                     <pre className="pre-links" >
-                        <Nav.Link href="/home"><span id="nav-link-text">Home</span></Nav.Link>
+                        {/* <Nav.Link href="/home"><span id="nav-link-text">Home</span></Nav.Link> */}
+                        <Link to="/home"><span id="nav-link-text">Home</span></Link>
                         <hr/>
-                        <Nav.Link href="/about"><span id="nav-link-text">About</span></Nav.Link>
+                        {/* <Nav.Link href="#/about"><span id="nav-link-text">About</span></Nav.Link> */}
+                        <Link to="/about"><span id="nav-link-text">About</span></Link>
                         <hr/>
-                        <Nav.Link href="/contact"><span id="nav-link-text">Contact</span></Nav.Link>
+                        {/* <Nav.Link href="/contact"><span id="nav-link-text">Contact</span></Nav.Link> */}
+                        <Link to="/Contact"><span id="nav-link-text">Contact</span></Link>
                         <hr/>
-                        <Nav.Link href="/hoodies"><span id="nav-link-text">Hoodies</span></Nav.Link>
+                        {/* <Nav.Link href="/hoodies"><span id="nav-link-text">Hoodies</span></Nav.Link> */}
+                        <Link to="/hoodies"><span id="nav-link-text">Hoodies</span></Link>
                         <hr/>
-                        <Nav.Link href="/#/hats"><span id="nav-link-text">Hats</span></Nav.Link>
+                        {/* <Nav.Link href="/#/hats"><span id="nav-link-text">Hats</span></Nav.Link> */}
+                        <Link to="/hats"><span id="nav-link-text">Hats</span></Link>
                         <hr/>
-                        <Nav.Link href="/#/shirts"><span id="nav-link-text">Shirts</span></Nav.Link>
+                        {/* <Nav.Link href="/#/shirts"><span id="nav-link-text">Shirts</span></Nav.Link> */}
+                        <Link to="/shirts"><span id="nav-link-text">Shirts</span></Link>
                         <hr/>
-                        <Nav.Link href="/#/lilpeeps"><span id="nav-link-text">Lil Peeps</span></Nav.Link>
+                        {/* <Nav.Link href="/#/lilpeeps"><span id="nav-link-text">Lil Peeps</span></Nav.Link> */}
+                        <Link to="/lilpeeps"><span id="nav-link-text">LilPeeps</span></Link>
                     </pre>
                     {/* <Nav.Link href="https://1drv.ms/w/s!AoCauJZ3EHFdgwMB4s6gnDG-WQOe" rel="noreferrer" target="_blank"><span id="nav-link-text">Resume</span></Nav.Link> */}
                 </Nav>
