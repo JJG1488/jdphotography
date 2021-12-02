@@ -107,7 +107,7 @@ function NavTabs() {
                         <Link to="/about"><span id="nav-link-text">About</span></Link>
                         <hr/>
                         {/* <Nav.Link href="/contact"><span id="nav-link-text">Contact</span></Nav.Link> */}
-                        <Link to="/Contact"><span id="nav-link-text">Contact</span></Link>
+                        <Link to="/contact"><span id="nav-link-text">Contact</span></Link>
                         <hr/>
                         {/* <Nav.Link href="/hoodies"><span id="nav-link-text">Hoodies</span></Nav.Link> */}
                         <Link to="/hoodies"><span id="nav-link-text">Hoodies</span></Link>

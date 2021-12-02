@@ -8,7 +8,7 @@ import hoodie2 from '../../../assets/image/Hoodies_Curated/Resized_20211104_1235
 
 const Hats = () => (
     <div id="hats-container">
-        <h1>Hats</h1>
+        <h1 style={{display: 'flex-inline', width: '100%', justifyContent: 'center'}}>Hats</h1>
         <Carousel>
             <Carousel.Item interval={1000}>
                 <Card style={{ width: '18rem' }}>

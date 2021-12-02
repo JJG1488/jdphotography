@@ -11,7 +11,7 @@ const LilPeeps = () => (
 
     <div id="lilpeeps-container">
     
-        <h1>LilPeeps</h1>
+        <h1 style={{display: 'flex-inline', width: '100%', justifyContent: 'center'}}>LilPeeps</h1>
 
 
         <Carousel>

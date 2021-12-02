@@ -9,7 +9,7 @@ const Hoodies = () => (
 
     <div id="hoodies-container">
 
-        <h1>Hoodies</h1>
+        <h1 style={{display: 'flex-inline', width: '100%', justifyContent: 'center'}}>Hoodies</h1>
 
 
         <Carousel>
