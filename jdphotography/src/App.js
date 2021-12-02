@@ -20,14 +20,15 @@ function App() {
 
           <NavTabs/>
           <Routes>
-            <Route path="#" element={<Home/>} />
-            <Route path="#home" element={<Home/>} />
-            <Route path="#about" element={<About/>} />
-            <Route path="#contact" element={<Contact/>} />
-            <Route path="#hoodies" element={<Hoodies/>} />
-            <Route path="#hats" element={<Hats/>} />
-            <Route path="#shirts" element={<Shirts/>} />
-            <Route path="#lilpeeps" element={<LilPeeps/>} />
+            <Route path="/" element={<Home/>} />
+            {/* <Route path="" element={<Home/>} /> */}
+            <Route exact path="home" element={<Home/>} />
+            <Route exact path="about" element={<About/>} />
+            <Route exact path="contact" element={<Contact/>} />
+            <Route exact path="hoodies" element={<Hoodies/>} />
+            <Route exact path="hats" element={<Hats/>} />
+            <Route exact path="shirts" element={<Shirts/>} />
+            <Route exact path="lilpeeps" element={<LilPeeps/>} />
 
           </Routes>
           <Footer />
