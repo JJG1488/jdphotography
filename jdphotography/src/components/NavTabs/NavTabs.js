@@ -99,13 +99,13 @@ function NavTabs() {
             <Offcanvas.Body style={{ display:'grid', backgroundColor: 'rgba(25, 25, 25, 1)', color: 'orange' }}>
                 <Nav className="justify-content-center" activeKey="/home">
                     <pre className="pre-links" >
-                        <Nav.Link href="/#/home"><span id="nav-link-text">Home</span></Nav.Link>
+                        <Nav.Link href="/home"><span id="nav-link-text">Home</span></Nav.Link>
                         <hr/>
-                        <Nav.Link href="/#/about"><span id="nav-link-text">About</span></Nav.Link>
+                        <Nav.Link href="/about"><span id="nav-link-text">About</span></Nav.Link>
                         <hr/>
-                        <Nav.Link href="/#/contact"><span id="nav-link-text">Contact</span></Nav.Link>
+                        <Nav.Link href="/contact"><span id="nav-link-text">Contact</span></Nav.Link>
                         <hr/>
-                        <Nav.Link href="/#/hoodies"><span id="nav-link-text">Hoodies</span></Nav.Link>
+                        <Nav.Link href="/hoodies"><span id="nav-link-text">Hoodies</span></Nav.Link>
                         <hr/>
                         <Nav.Link href="/#/hats"><span id="nav-link-text">Hats</span></Nav.Link>
                         <hr/>
