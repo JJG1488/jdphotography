@@ -21,12 +21,12 @@ function App() {
           <NavTabs/>
           <Routes>
             <Route path="/" element={<Home/>} />
-            <Route path="#/home" element={<Home/>} />
-            <Route path="#/about" element={<About/>} />
-            <Route path="#/contact" element={<Contact/>} />
-            <Route path="/#hoodies" element={<Hoodies/>} />
-            <Route path="/#hats" element={<Hats/>} />
-            <Route path="/#/shirts" element={<Shirts/>} />
+            <Route path="#home" element={<Home/>} />
+            <Route path="#about" element={<About/>} />
+            <Route path="#contact" element={<Contact/>} />
+            <Route path="#hoodies" element={<Hoodies/>} />
+            <Route path="#hats" element={<Hats/>} />
+            <Route path="#shirts" element={<Shirts/>} />
             <Route path="#lilpeeps" element={<LilPeeps/>} />
 
           </Routes>
