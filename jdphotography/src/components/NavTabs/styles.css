@@ -5,6 +5,7 @@
   border-radius: 25px;
 }
 
+
 .good-peeps {
   /* border: solid red 10px; */
   text-decoration: none;
@@ -34,7 +35,7 @@ img.d-block {
 }
 
 #basic-navbar-nav {
-  /* border: red solid 10px;*/
+  /* border: red solid 10px; */
   /* display: flex; */
   justify-content: center;
   align-items: center;

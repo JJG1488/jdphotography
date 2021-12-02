@@ -59,7 +59,7 @@ function NavTabs() {
         {/* </Navbar> */}
 
 
-        <Navbar bg="dark" variant="dark" expand="md" id="nav-data" style={{ position: "fixed", zIndex: 1, width: '100%', top: '0' }}>
+        <Navbar bg="dark" variant="dark" expand="l" id="nav-data" style={{ position: "fixed", zIndex: 1, width: '100%', top: '0' }}>
             <Navbar.Brand href="#home"><small><img
                 alt="Good Peeps Clothing Line Logo"
                 src={logo}

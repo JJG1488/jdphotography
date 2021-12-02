@@ -7,18 +7,20 @@ import Button from 'react-bootstrap/Button';
 
 function LowerBodyContent() {
     return (
-        <div style={{ display: 'grid', margin: '20%' }}>
-        <h2 style={{margin: '40% auto'}}>About Good Peeps</h2>
+        <div className="lowerBodyContent">
+            <h2 className="about-good-peeps">About Good Peeps</h2>
             <Figure>
                 <Figure.Image
-                    width={171}
-                    height={180}
+                    // width={'auto'}
+                    // height={'auto'}
                     alt="171x180"
                     src={bodyContentPhoto}
-                    className="body-content-img box inline-block"
+                    className="body-content-img box d-inline-block"
                     fluid
-                    style={{display: 'inline-block', borderRadius: '50%'}}
+                    style={{ borderRadius: '50%' }}
+                    id="lowerBodyContent"
                 />
+
                 <Figure.Caption>
                     <p className="body-paragraph box">The Good Peeps brand is about encouraging everyone to be true to themselves and others and standing up for good natured individuals in a time where good people seem scarce.
                     </p>
@@ -30,11 +32,6 @@ function LowerBodyContent() {
 
                 </Figure.Caption>
             </Figure>
-            {/* <Image className="body-content-img" src={bodyContentPhoto} thumbnail /> */}
-
-
-
-            {/* <button className="learn-more-btn" >Learn More</button> */}
         </div>
     )
 }

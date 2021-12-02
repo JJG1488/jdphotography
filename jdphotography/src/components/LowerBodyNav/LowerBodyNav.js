@@ -15,7 +15,7 @@ import './styles.css';
 
 function LowerBodyNav() {
   return (
-    <div>
+    <div className="lowerBodyNav">
       {/* <Container className="body-container">
         <Row className="body-row">
           <Col className="body-col"> */}

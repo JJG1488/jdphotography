@@ -1,20 +1,10 @@
-.body-content-img {
-    /* border: solid red 10px; */
-    display: inline;
-    /* float: left; */
-    height: 200px;
-    width: 400px;
-    /* margin-right: 5px; */
-}
-
 p.body-paragraph {
-    text-align: left;
-    display: inline-block;
-    /* height: 200px;
+  /* border: solid red 10px; */
+  text-align: left;
+  display: inline-block;
+  /* height: 200px;
     width: 400px; */
-    align-self: center;
-
-    
+  /* align-self: center; */
 }
 
 /* 
@@ -24,11 +14,75 @@ Learn More
 
 */
 
-a.btn-primary {
-    /* border: red solid 2px; */
-    display: block;
-    /* width: 30vw; */
-    justify-content: center;
+.about-good-peeps {
+  display: inline-block;
+  margin-top: 30%;
+  margin-bottom: 20%;
+  text-align: center;
+  width: 100%;
 }
 
+a.btn-primary {
+  /* border: red solid 2px; */
+  display: block;
+  /* width: 30vw; */
+  justify-content: center;
+}
 
+div .lowerBodyContent {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: solid red 10px; */
+  margin-bottom: 30%;
+  position: relative;
+}
+
+figure #lowerBodyContent {
+  /* border: solid red 10px; */
+  /* display:inline-block; */
+  /* float: left; */
+  /* height: 400px;
+    width: 400px; */
+  margin: 20% auto;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
+  width: 500px;
+}
+
+@media screen and (min-width: 500px) {
+  a.btn-primary {
+    /* border: red solid 2px; */
+    display: inline-block;
+    width: 50vw;
+    justify-content: center;
+  }
+
+  div .lowerBodyContent {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: solid red 10px; */
+    margin-bottom: 30%;
+    position: relative;
+    width: 100vw;
+  }
+
+  figure #lowerBodyContent {
+    /* border: solid red 10px; */
+    /* display:inline-block; */
+    /* float: left; */
+    /* height: 400px;
+          width: 400px; */
+    margin: 20% 10% 20% 10%;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    width: 500px;
+  }
+}

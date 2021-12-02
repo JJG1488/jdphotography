@@ -2,17 +2,18 @@ import React from 'react';
 import Figure from 'react-bootstrap/Figure';
 // import Button from 'react-bootstrap/Button';
 import bodyContentPhoto from '../../../assets/image/Professional_photo/20210526_1646071.jpg';
+import './style.css';
 
 
 
 function About() {
     return(
             <div style={{ display: 'grid', margin: '20%' }}>
-        <h2>Who Are Good Peeps?</h2>
+        <h2 className="who-are-good-peeps">Who Are Good Peeps?</h2>
             <Figure>
                 <Figure.Image
-                    width={171}
-                    height={180}
+                    // width={171}
+                    // height={180}
                     alt="171x180"
                     src={bodyContentPhoto}
                     className="body-content-img box inline-block"

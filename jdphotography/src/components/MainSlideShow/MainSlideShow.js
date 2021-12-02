@@ -7,13 +7,13 @@ import image2 from '../../assets/image/Hoodies_Curated/Resized_PicsArt_11-03-12.
 
 
 function MainSlideShow() {
-    return (<div style={{display: 'inline-block', margin: '0 auto', width: '100%', height: '80%'}}>
+    return (<div style={{}}>
         <Carousel>
             <Carousel.Item interval={1000}>
-                <img className="d-block w-100"
+                <img className="d-inline-block w-100"
                     src={image1}
                     alt="First slide"
-                    style={{display:"inline-block", maxHeight:300, maxWidth:800}}
+                    style={{height: '20rem'}}
                 />
                 <Carousel.Caption>
                     {/* <h3>First Article of Clothing</h3>
@@ -21,10 +21,10 @@ function MainSlideShow() {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={500}>
-                <img className="d-block w-100"
+                <img className="d-inline-block w-100"
                     src={image2}
                     alt="Second slide"
-                    style={{display:"inline-block", maxHeight:300, maxWidth:800}}
+                    style={{height: "20rem"}}
                 />
                 <Carousel.Caption>
                     {/* <h3>Second Article of Clothing</h3>
@@ -32,10 +32,10 @@ function MainSlideShow() {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <img className="d-block w-100"  
+                <img className="d-inline-block w-100"  
                     src={image2}
                     alt="Third slide"
-                    style={{display:"inline-block", maxHeight:300, maxWidth:800}}
+                    style={{height: "20rem"}}
                 />
                 <Carousel.Caption>
                     {/* <h3>Third Article of Clothing</h3>
