@@ -2,6 +2,7 @@
     /* border: solid red 10px; */
     display:inline-block;
     width: 25rem;
+    color: black;
 }
 
 div.carousel-inner {
