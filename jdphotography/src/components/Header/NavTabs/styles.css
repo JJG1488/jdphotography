@@ -50,6 +50,8 @@ img.d-block {
   color: white;
   text-decoration: underline;
   text-decoration-color:white;
+  margin-left: 4rem;
+  /* justify-content: center; */
 }
 
 #nav-link-text:hover {
@@ -92,8 +94,8 @@ a.nav-link:hover {
 
 div .justify-content-center {
   /* border: 1px solid rgba(250, 25, 25, 1); */
-  display: grid;
-  grid-template-areas: repeat(7, 1fr) / repeat(1, 1fr);
+  /* display: grid; */
+  /* grid-template-areas: repeat(7, 1fr) / repeat(1, 1fr); */
 }
 
 .pre-links {
@@ -101,6 +103,7 @@ div .justify-content-center {
   overflow: visible;
   align-content: space-around;
   grid-area: repeat(8, 1fr) / repeat(1, 1fr);
+  justify-content: center;
   
 }
 

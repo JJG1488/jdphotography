@@ -33,7 +33,7 @@ function Contact() {
 
     return (
         <div>
-            <h1>Contact</h1>
+            <h1 className="contact-header">Contact</h1>
             <div className="form-container">
                 <Form noValidate validated={validated} onSubmit={handleSubmit} style={style}>
                     <Row className="mb-3">

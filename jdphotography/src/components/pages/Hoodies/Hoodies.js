@@ -9,7 +9,7 @@ const Hoodies = () => (
 
     <div>
 
-        <h1 style={{ display: 'inline-block', width: '100%', justifyContent: 'center' }}>Hoodies</h1>
+        <h1 style={{ display: 'inline-block', width: '100%', justifyContent: 'center', marginBottom: '2rem' }}>Hoodies</h1>
         <div id="hoodies-container">
             <Carousel>
                 <Carousel.Item interval={3000}>

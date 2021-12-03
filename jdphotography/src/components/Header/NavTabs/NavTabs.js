@@ -91,9 +91,9 @@ function NavTabs() {
                 Launch
             </Button> */}
 
-        <Offcanvas show={show} onHide={handleClose} style={{ width: '50%' }}>
+        <Offcanvas show={show} onHide={handleClose} style={{ width: '50%'}}>
             <Offcanvas.Header closeButton style={{ backgroundColor: 'rgba(25, 25, 25, 1)', color: "white" }}>
-                <Offcanvas.Title style={{ margin: '0 auto' }}>Nav</Offcanvas.Title>
+                <Offcanvas.Title style={{ margin: '0 auto' }}>Nav Menu</Offcanvas.Title>
             </Offcanvas.Header>
             {/* color: white;
   background-color: rgba(25, 25, 25, 1); */}
@@ -119,7 +119,7 @@ function NavTabs() {
                         <Link to="/shirts" onClick={handleClose}><span id="nav-link-text">Shirts</span></Link>
                         <hr />
                         {/* <Nav.Link href="/#/lilpeeps"><span id="nav-link-text">Lil Peeps</span></Nav.Link> */}
-                        <Link to="/lilpeeps" onClick={handleClose}><span id="nav-link-text">LilPeeps</span></Link>
+                        <Link to="/lilpeeps" onClick={handleClose}><span id="nav-link-text">Lil Peeps</span></Link>
                     </pre>
                     {/* <Nav.Link href="https://1drv.ms/w/s!AoCauJZ3EHFdgwMB4s6gnDG-WQOe" rel="noreferrer" target="_blank"><span id="nav-link-text">Resume</span></Nav.Link> */}
                 </Nav>

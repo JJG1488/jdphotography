@@ -8,7 +8,7 @@ import hoodie2 from '../../../assets/image/Hoodies_Curated/Resized_20211104_1235
 
 const Hats = () => (
     <div>
-        <h1 style={{ width: '100%', justifyContent: 'center', margin: 'auto 0' }}>Hats</h1>
+        <h1 style={{ width: '100%', justifyContent: 'center', margin: 'auto 0', marginBottom: '2rem' }}>Hats</h1>
         <div id="hats-container">
             <Carousel>
                 <Carousel.Item interval={1000}>

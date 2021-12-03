@@ -8,7 +8,7 @@ import hoodie2 from '../../../assets/image/Hoodies_Curated/Resized_20211104_1235
 
 const Shirts = () => (
     <div>
-    <h1 style={{display: 'flex-inline', width: '100%', justifyContent: 'center'}}>Shirts</h1>
+    <h1 style={{display: 'flex-inline', width: '100%', justifyContent: 'center', marginBottom: '2rem'}}>Shirts</h1>
 
     <div id="shirts-container">
         <Carousel>

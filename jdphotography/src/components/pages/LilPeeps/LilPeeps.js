@@ -10,7 +10,7 @@ import hoodie2 from '../../../assets/image/Hoodies_Curated/Resized_20211104_1235
 const LilPeeps = () => (
     <div>
 
-    <h1 style={{display: 'flex-inline', width: '100%', justifyContent: 'center'}}>Lil Peeps</h1>
+    <h1 style={{display: 'flex-inline', width: '100%', justifyContent: 'center', marginBottom: '2rem'}}>Lil Peeps</h1>
 
 
     <div id="lilpeeps-container">
