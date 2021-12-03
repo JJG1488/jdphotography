@@ -8,11 +8,14 @@ import hoodie2 from '../../../assets/image/Hoodies_Curated/Resized_20211104_1235
 
 
 const LilPeeps = () => (
+    <div>
+
+    <h1 style={{display: 'flex-inline', width: '100%', justifyContent: 'center'}}>Lil Peeps</h1>
+
 
     <div id="lilpeeps-container">
     
-        <h1 style={{display: 'flex-inline', width: '100%', justifyContent: 'center'}}>LilPeeps</h1>
-
+      
 
         <Carousel>
             <Carousel.Item interval={1000}>
@@ -201,6 +204,7 @@ const LilPeeps = () => (
 
 
 
+    </div>
     </div>
 
 

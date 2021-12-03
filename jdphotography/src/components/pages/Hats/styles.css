@@ -1,5 +1,44 @@
 #hats-container {
-    display: flex;
-    flex-wrap: wrap;
+    display:inline-block;
+    width: 25rem;
+}
+
+
+div.carousel-inner {
+    /* border: solid red 10px; */
+    display:flex;
+    justify-content: center;
+    /* margin: auto 8rem; */
+    /* max-width: 25rem; */
+
+}
+
+
+div[interval="1000"].carousel-item {
+    /* border: solid green 10px; */
+    justify-content: center;
+    margin: auto 0;
+}
+
+div.active.carousel-item-start.carousel-item {
+    /* border: solid red 10px; */
+    justify-content: center;
+    margin: auto 0;
+    width: 25rem;
+}
+
+div.active.carousel-item {
+    /* border: solid purple 10px; */
+    display:flex;
+    width: 25rem;
+    justify-self: center;
+    justify-content: center;
+    margin: auto 0;
+
+}
+
+div.card {
+    /* border: solid orange 10px; */
+    margin: auto 0;
     justify-content: center;
 }

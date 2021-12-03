@@ -4,14 +4,14 @@ import React from "react";
 // import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
 import Figure from 'react-bootstrap/Figure';
-import image1 from '../../assets/image/Hoodies_Curated/Resized_PicsArt_11-03-12.08.43.jpg';
-import image2 from '../../assets/image/Hoodies_Curated/Resized_PicsArt_11-03-12.19.40.jpg';
-import image3 from '../../assets/image/Hoodies_Curated/Resized_PicsArt_11-03-12.30.04.jpg';
-import image4 from '../../assets/image/Hoodies_Curated/Resized_PicsArt_11-03-12.41.15.jpg';
-import image5 from '../../assets/image/Hoodies_Curated/Resized_20211104_123546.jpg';
-import image6 from '../../assets/image/Hoodies_Curated/Resized_20211104_132819.jpg';
-import image7 from '../../assets/image/Hoodies_Curated/Resized_20211104_133011.jpg';
-import image8 from '../../assets/image/Hoodies_Curated/Resized_20210228_042920.jpg';
+import image1 from '../../../../../assets/image/Hoodies_Curated/Resized_PicsArt_11-03-12.08.43.jpg';
+import image2 from '../../../../../assets/image/Hoodies_Curated/Resized_PicsArt_11-03-12.19.40.jpg';
+import image3 from '../../../../../assets/image/Hoodies_Curated/Resized_PicsArt_11-03-12.30.04.jpg';
+import image4 from '../../../../../assets/image/Hoodies_Curated/Resized_PicsArt_11-03-12.41.15.jpg';
+import image5 from '../../../../../assets/image/Hoodies_Curated/Resized_20211104_123546.jpg';
+import image6 from '../../../../../assets/image/Hoodies_Curated/Resized_20211104_132819.jpg';
+import image7 from '../../../../../assets/image/Hoodies_Curated/Resized_20211104_133011.jpg';
+import image8 from '../../../../../assets/image/Hoodies_Curated/Resized_20210228_042920.jpg';
 import './styles.css';
 
 

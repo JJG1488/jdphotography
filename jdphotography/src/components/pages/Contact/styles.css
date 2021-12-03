@@ -1,5 +1,54 @@
-.form-background {
-    display: flex;
-    background-color: dodgerblue;
-    color: red;
+/*
+<form novalidate="" class="" style="margin: 0px auto; width: 80%;">
+<div class="mb-3 row">
+<div class="col-md-4">
+<label class="form-label" for="validationCustom01">First name</label>
+<input required="" placeholder="First name" type="text" id="validationCustom01" class="form-control" value="">
+<div class="valid-feedback">Looks good!</div></div><div class="col-md-4">
+<label class="form-label" for="validationCustom02">Last name</label>
+<input required="" placeholder="Last name" type="text" id="validationCustom02" class="form-control" value="">
+<div class="valid-feedback">Looks good!</div>
+</div>
+<div class="col-md-4">
+<div md="4">
+<label class="form-label" for="exampleForm.ControlInput1">Email address</label>
+<input placeholder="name@example.com" type="email" id="exampleForm.ControlInput1" class="form-control"></div>
+<div class="mb-4">
+<label class="form-label" for="exampleForm.ControlTextarea1">Example textarea</label>
+<textarea md="4" rows="4" id="exampleForm.ControlTextarea1" class="form-control"></textarea>
+</div>
+<div class="input-group has-validation">
+<div class="invalid-feedback">Please choose a username.</div>
+</div>
+</div>
+</div>
+<div class="mb-3 row"><div class="col-md-6">
+<label class="form-label" for="validationCustom03">City</label>
+<input placeholder="City" required="" type="text" id="validationCustom03" class="form-control">
+<div class="invalid-feedback">Please provide a valid city.</div></div><div class="col-md-3">
+<label class="form-label" for="validationCustom04">State</label>
+<input placeholder="State" required="" type="text" id="validationCustom04" class="form-control">
+<div class="invalid-feedback">Please provide a valid state.</div>
+</div>
+<div class="col-md-3">
+<label class="form-label" for="validationCustom05">Zip</label>
+<input placeholder="Zip" required="" type="text" id="validationCustom05" class="form-control">
+<div class="invalid-feedback">Please provide a valid zip.</div>
+</div>
+</div>
+<div class="mb-3"><div class="form-check"><input required="" type="checkbox" class="form-check-input">
+<label title="" class="form-check-label">Agree to terms and conditions</label>
+<div class="invalid-feedback">You must agree before submitting.</div>
+</div>
+</div>
+<button type="submit" class="btn btn-primary">Submit form</button>
+</form>
+*/
+
+/* .form-container {
+  
 }
+
+.form-background {
+
+} */

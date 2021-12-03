@@ -1,6 +1,9 @@
 import React from "react";
 import './styles.css';
-import bodyContentPhoto from '../../assets/image/modern-business-buildings-11681736.jpeg';
+// import bodyContentPhoto from '../../assets/image/modern-business-buildings-11681736.jpeg';
+import bodyContentPhoto from '../../../../../assets/image/modern-business-buildings-11681736.jpeg';
+
+
 // import Image from 'react-bootstrap/Image';
 import Figure from 'react-bootstrap/Figure';
 import { Button } from 'react-bootstrap';

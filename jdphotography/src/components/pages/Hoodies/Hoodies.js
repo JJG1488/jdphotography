@@ -7,195 +7,194 @@ import hoodie2 from '../../../assets/image/Hoodies_Curated/Resized_20211104_1235
 
 const Hoodies = () => (
 
-    <div id="hoodies-container">
+    <div>
 
-        <h1 style={{display: 'flex-inline', width: '100%', justifyContent: 'center'}}>Hoodies</h1>
+        <h1 style={{ display: 'inline-block', width: '100%', justifyContent: 'center' }}>Hoodies</h1>
+        <div id="hoodies-container">
+            <Carousel>
+                <Carousel.Item interval={3000}>
+                    <Card style={{ width: '18rem'}}>
+                        <Figure>
+                            <Figure.Image src={hoodie1} />
+                        </Figure>
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                            </Card.Text>
+                            <Button variant="primary">Go somewhere</Button>
+                        </Card.Body>
+                    </Card>
+                </Carousel.Item>
 
+                {/* ===================================================== Next Carousel Item Starts here ===================================================== */}
 
-        <Carousel>
-            <Carousel.Item interval={1000}>
-                <Card style={{ width: '18rem' }}>
-                    <Figure>
-                        <Figure.Image src={hoodie1} />
-                    </Figure>
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
-                    </Card.Body>
-                </Card>
-            </Carousel.Item>
+                <Carousel.Item interval={4000}>
+                    <Card style={{ width: '18rem' }}>
+                        <Figure>
+                            <Figure.Image src={hoodie2} />
+                        </Figure>
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                            </Card.Text>
+                            <Button variant="primary">Go somewhere</Button>
+                        </Card.Body>
+                    </Card>
+                </Carousel.Item>
 
-{/* ===================================================== Next Carousel Item Starts here ===================================================== */}
+                {/* ===================================================== Next Carousel Item Starts here ===================================================== */}
 
-            <Carousel.Item interval={500}>
-                <Card style={{ width: '18rem' }}>
-                    <Figure>
-                        <Figure.Image src={hoodie2} />
-                    </Figure>
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
-                    </Card.Body>
-                </Card>
-            </Carousel.Item>
+                <Carousel.Item interval={4000}>
+                    <Card style={{ width: '18rem'}}>
+                        <Figure>
+                            <Figure.Image src={hoodie2} />
+                        </Figure>
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                            </Card.Text>
+                            <Button variant="primary">Go somewhere</Button>
+                        </Card.Body>
+                    </Card>
+                </Carousel.Item>
 
-{/* ===================================================== Next Carousel Item Starts here ===================================================== */}
+                {/* ===================================================== Next Carousel Item Starts here ===================================================== */}
 
-            <Carousel.Item>
-                <Card style={{ width: '18rem' }}>
-                    <Figure>
-                        <Figure.Image src={hoodie2} />
-                    </Figure>
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
-                    </Card.Body>
-                </Card>
-            </Carousel.Item>
+                <Carousel.Item interval={4000}>
+                    <Card style={{ width: '18rem' }}>
+                        <Figure>
+                            <Figure.Image src={hoodie2} />
+                        </Figure>
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                            </Card.Text>
+                            <Button variant="primary">Go somewhere</Button>
+                        </Card.Body>
+                    </Card>
+                </Carousel.Item>
 
-{/* ===================================================== Next Carousel Item Starts here ===================================================== */}
+                {/* ===================================================== Next Carousel Item Starts here ===================================================== */}
 
-<Carousel.Item>
-                <Card style={{ width: '18rem' }}>
-                    <Figure>
-                        <Figure.Image src={hoodie2} />
-                    </Figure>
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
-                    </Card.Body>
-                </Card>
-            </Carousel.Item>
+                <Carousel.Item interval={4000}>
+                    <Card style={{ width: '18rem' }}>
+                        <Figure>
+                            <Figure.Image src={hoodie2} />
+                        </Figure>
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                            </Card.Text>
+                            <Button variant="primary">Go somewhere</Button>
+                        </Card.Body>
+                    </Card>
+                </Carousel.Item>
 
-{/* ===================================================== Next Carousel Item Starts here ===================================================== */}
+                {/* ===================================================== Next Carousel Item Starts here ===================================================== */}
 
-<Carousel.Item>
-                <Card style={{ width: '18rem' }}>
-                    <Figure>
-                        <Figure.Image src={hoodie2} />
-                    </Figure>
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
-                    </Card.Body>
-                </Card>
-            </Carousel.Item>
+                <Carousel.Item interval={4000}>
+                    <Card style={{ width: '18rem' }}>
+                        <Figure>
+                            <Figure.Image src={hoodie2} />
+                        </Figure>
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                            </Card.Text>
+                            <Button variant="primary">Go somewhere</Button>
+                        </Card.Body>
+                    </Card>
+                </Carousel.Item>
 
-{/* ===================================================== Next Carousel Item Starts here ===================================================== */}
+                {/* ===================================================== Next Carousel Item Starts here ===================================================== */}
 
-<Carousel.Item>
-                <Card style={{ width: '18rem' }}>
-                    <Figure>
-                        <Figure.Image src={hoodie2} />
-                    </Figure>
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
-                    </Card.Body>
-                </Card>
-            </Carousel.Item>
+                <Carousel.Item interval={4000}>
+                    <Card style={{ width: '18rem' }}>
+                        <Figure>
+                            <Figure.Image src={hoodie2} />
+                        </Figure>
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                            </Card.Text>
+                            <Button variant="primary">Go somewhere</Button>
+                        </Card.Body>
+                    </Card>
+                </Carousel.Item>
 
-{/* ===================================================== Next Carousel Item Starts here ===================================================== */}
+                {/* ===================================================== Next Carousel Item Starts here ===================================================== */}
 
-<Carousel.Item>
-                <Card style={{ width: '18rem' }}>
-                    <Figure>
-                        <Figure.Image src={hoodie2} />
-                    </Figure>
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
-                    </Card.Body>
-                </Card>
-            </Carousel.Item>
+                <Carousel.Item interval={4000}>
+                    <Card style={{ width: '18rem' }}>
+                        <Figure>
+                            <Figure.Image src={hoodie2} />
+                        </Figure>
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                            </Card.Text>
+                            <Button variant="primary">Go somewhere</Button>
+                        </Card.Body>
+                    </Card>
+                </Carousel.Item>
 
-{/* ===================================================== Next Carousel Item Starts here ===================================================== */}
+                {/* ===================================================== Next Carousel Item Starts here ===================================================== */}
 
-<Carousel.Item>
-                <Card style={{ width: '18rem' }}>
-                    <Figure>
-                        <Figure.Image src={hoodie2} />
-                    </Figure>
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
-                    </Card.Body>
-                </Card>
-            </Carousel.Item>
+                <Carousel.Item interval={4000}>
+                    <Card style={{ width: '18rem' }}>
+                        <Figure>
+                            <Figure.Image src={hoodie2} />
+                        </Figure>
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                            </Card.Text>
+                            <Button variant="primary">Go somewhere</Button>
+                        </Card.Body>
+                    </Card>
+                </Carousel.Item>
 
-{/* ===================================================== Next Carousel Item Starts here ===================================================== */}
+                {/* ===================================================== Next Carousel Item Starts here ===================================================== */}
 
-<Carousel.Item>
-                <Card style={{ width: '18rem' }}>
-                    <Figure>
-                        <Figure.Image src={hoodie2} />
-                    </Figure>
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
-                    </Card.Body>
-                </Card>
-            </Carousel.Item>
-
-{/* ===================================================== Next Carousel Item Starts here ===================================================== */}
-
-<Carousel.Item>
-                <Card style={{ width: '18rem' }}>
-                    <Figure>
-                        <Figure.Image src={hoodie2} />
-                    </Figure>
-                    <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                            Some quick example text to build on the card title and make up the bulk of
-                            the card's content.
-                        </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
-                    </Card.Body>
-                </Card>
-            </Carousel.Item>
-
-
-        </Carousel>
+                <Carousel.Item interval={4000}>
+                    <Card style={{ width: '18rem' }}>
+                        <Figure>
+                            <Figure.Image src={hoodie2} />
+                        </Figure>
+                        <Card.Body>
+                            <Card.Title>Card Title</Card.Title>
+                            <Card.Text>
+                                Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                            </Card.Text>
+                            <Button variant="primary">Go somewhere</Button>
+                        </Card.Body>
+                    </Card>
+                </Carousel.Item>
 
 
+            </Carousel>
 
+
+        </div>
 
     </div>
 )

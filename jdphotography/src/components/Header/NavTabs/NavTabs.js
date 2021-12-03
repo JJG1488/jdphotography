@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import { useState } from 'react';
 // import Button from 'react-bootstrap/Button';
 import "./styles.css";
-import logo from '../../assets/image/Professional_photo/20210526_1646071.jpg';
+import logo from '../../../assets/image/Professional_photo/20210526_1646071.jpg';
 // import MainSlideShow from '../MainSlideShow/MainSlideShow';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Link } from "react-router-dom";

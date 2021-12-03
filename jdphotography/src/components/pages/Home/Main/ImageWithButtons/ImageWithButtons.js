@@ -1,11 +1,11 @@
 import React from "react";
 import Figure from 'react-bootstrap/Figure';
 // import Button from 'react-bootstrap/Button';
-import shirtImage from '../../assets/image/Shirts/Resized_PicsArt_09-22-10.33.53.jpg';
-import hoodieImage from '../../assets/image/Hoodies_Curated/Resized_PicsArt_11-03-12.41.15.jpg'
+import shirtImage from '../../../../../assets/image/Shirts/Resized_PicsArt_09-22-10.33.53.jpg';
+import hoodieImage from '../../../../../assets/image/Hoodies_Curated/Resized_PicsArt_11-03-12.41.15.jpg'
 import './styles.css';
-import hatImage from '../../assets/image/Shirts/Resized_PicsArt_03-22-12.10.49(1).jpg';
-import lilPeepsImage from '../../assets/image/Lil_Peeps/Resized_20211104_132854.jpg';
+import hatImage from '../../../../../assets/image/Shirts/Resized_PicsArt_03-22-12.10.49(1).jpg';
+import lilPeepsImage from '../../../../../assets/image/Lil_Peeps/Resized_20211104_132854.jpg';
 import { Link } from 'react-router-dom';
 
 

@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
-import image1 from '../../assets/image/Shirts/Resized_PicsArt_06-21-06.22.14.jpg';
-import image2 from '../../assets/image/Hoodies_Curated/Resized_PicsArt_11-03-12.19.40.jpg';
+import image1 from '../../../../../assets/image/Shirts/Resized_PicsArt_06-21-06.22.14.jpg';
+import image2 from '../../../../../assets/image/Hoodies_Curated/Resized_PicsArt_11-03-12.19.40.jpg';
 // import image3 from '../../assets/image/Shirts/Resized_20210228_042920.jpg';
 
 

@@ -7,8 +7,10 @@ import hoodie2 from '../../../assets/image/Hoodies_Curated/Resized_20211104_1235
 
 
 const Shirts = () => (
+    <div>
+    <h1 style={{display: 'flex-inline', width: '100%', justifyContent: 'center'}}>Shirts</h1>
+
     <div id="shirts-container">
-        <h1 style={{display: 'flex-inline', width: '100%', justifyContent: 'center'}}>Shirts</h1>
         <Carousel>
             <Carousel.Item interval={1000}>
                 <Card style={{ width: '18rem' }}>
@@ -190,6 +192,7 @@ const Shirts = () => (
 
 
         </Carousel>
+        </div>
     </div>
 
 )

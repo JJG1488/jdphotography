@@ -5,7 +5,8 @@ import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/pages/RenderHome/RenderHome';
 import About from './components/pages/About/About';
 import Contact from './components/pages/Contact/Contact';
-import NavTabs from './components/NavTabs/NavTabs';
+// import NavTabs from './components/Header/NavTabs/NavTabs';
+import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Hoodies from './components/pages/Hoodies/Hoodies';
 import Hats from './components/pages/Hats/Hats';
@@ -18,7 +19,8 @@ function App() {
     <div className="background">
       <Router basename="/">
         <Wrapper>
-          <NavTabs/>
+          {/* <NavTabs/> */}
+          <Header />
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route exact path="home" element={<Home/>} />

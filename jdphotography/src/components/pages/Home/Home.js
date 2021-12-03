@@ -4,12 +4,12 @@ import { useEffect } from 'react';
 // import Container from "react-bootstrap/Container";
 // import Row from "react-bootstrap/Row";
 // import Col from 'react-bootstrap/Col';
-import ImageWithButtons from '../../ImageWithButtons/ImageWithButtons';
-import LowerBodyNav from "../../LowerBodyNav/LowerBodyNav";
-import LowerBodyContent from "../../LowerBodyContent/LowerBodyContent";
-import ContactForm from '../../ContactForm/ContactForm';
-import Subscribe from '../../Subscribe/Subscribe';
-import MainSlideShow from '../../MainSlideShow/MainSlideShow';
+import ImageWithButtons from './Main/ImageWithButtons/ImageWithButtons';
+import LowerBodyNav from "./Main/LowerBodyNav/LowerBodyNav";
+import LowerBodyContent from "./Main/LowerBodyContent/LowerBodyContent";
+import ContactForm from './Main/ContactForm/ContactForm';
+import Subscribe from './Main/Subscribe/Subscribe';
+import MainSlideShow from './Main/MainSlideShow/MainSlideShow';
 
 function Home() {
 

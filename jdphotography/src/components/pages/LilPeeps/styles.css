@@ -1,5 +1,5 @@
 #lilpeeps-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display:inline-block;
+    width: 25rem;
 }
+
