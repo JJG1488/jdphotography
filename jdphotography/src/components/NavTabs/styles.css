@@ -35,7 +35,7 @@ img.d-block {
 }
 
 #basic-navbar-nav {
-  /* border: red solid 10px; */
+  border: red solid 10px;
   /* display: flex; */
   justify-content: center;
   align-items: center;
@@ -54,7 +54,7 @@ img.d-block {
 
 #nav-link-text:hover {
 
-  color:rgba(25, 25, 25, 1);
+  /* color:rgba(25, 25, 25, 1); */
   text-decoration: underline;
   text-decoration-color:black;
 
@@ -110,7 +110,8 @@ div .justify-content-center {
 }
 .pre-links a:hover {
   /* border: green solid 4px; */
-  background-color: white;
-  color:rgba(25, 25, 25, 1);
+  /* background-color: white; */
+  /* color:rgba(25, 25, 25, 1); */
+  /* color: white; */
   
 }

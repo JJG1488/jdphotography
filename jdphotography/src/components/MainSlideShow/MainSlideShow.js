@@ -9,7 +9,7 @@ import image2 from '../../assets/image/Hoodies_Curated/Resized_PicsArt_11-03-12.
 function MainSlideShow() {
     return (<div style={{}}>
         <Carousel>
-            <Carousel.Item interval={1000}>
+            <Carousel.Item interval={2000}>
                 <img className="d-inline-block w-100"
                     src={image1}
                     alt="First slide"
@@ -20,7 +20,7 @@ function MainSlideShow() {
                     <p>Maybe put a model here wearing a hat and hoodie?</p> */}
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item interval={500}>
+            <Carousel.Item interval={2000}>
                 <img className="d-inline-block w-100"
                     src={image2}
                     alt="Second slide"
