@@ -1,8 +1,96 @@
+/* <div class="carousel slide">
+<div class="carousel-indicators">
+  <button type="button" data-bs-target="" aria-label="Slide 1" aria-current="false"></button>
+  <button type="button" data-bs-target="" aria-label="Slide 2" aria-current="true" class="active"></button>
+</div>
+<div class="carousel-inner">
+  <div interval="6000" class="carousel-item">
+    <figure class="figure">
+      <img src="/jdphotography/static/media/Resized_20211104_133011.19f10312.jpg" class="body-figure box figure-img img-fluid show" />
+    </figure>
+  </div>
+  <div interval="6000" class="active carousel-item">
+    <figure class="figure">
+      <img src="/jdphotography/static/media/Resized_20210228_042920.34301424.jpg" class="body-figure box figure-img img-fluid show" />
+    </figure>
+  </div>
+</div>
+<a class="carousel-control-prev" role="button" tabindex="0" />
+<span aria-hidden="true" class="carousel-control-prev-icon"></span>
+<span class="visually-hidden">Previous</span>
+<a class="carousel-control-next" role="button" tabindex="0">
+  <span aria-hidden="true" class="carousel-control-next-icon"></span>
+  <span class="visually-hidden">Next</span></a></div>
+ */
+ div.carousel {
+   /* border: solid red 10px; */
+   /* these three lines below will sink the background below everything else */
+   /* background-color: orange;
+   position: fixed;
+   z-index: -1; */
+ }
+
+ a.carousel-control-prev span.carousel-control-prev-icon {
+  /* border: solid red 10px; */
+  /* color: black;
+  background-color: black;
+  display: inline-block;
+  position: absolute;
+  z-index: -1; */
+}
+
+
+ a.carousel-control-prev span.carousel-control-prev-icon {
+   /* border: solid red 10px; */
+   /* color: black;
+   background-color: black;
+   position: absolute;
+   z-index: -1; */
+ }
+ a.carousel-control-next span.carousel-control-next-icon {
+  /* border: solid red 10px; */
+  /* color: black;
+  background-color: black;
+  position: absolute;
+  z-index: -1; */
+}
+
+ div .carousel .carousel-indicators {
+   /* border: solid red 10px; */
+   /* background-color:white;
+   position: absolute;
+   z-index: -1; */
+ }
+
+
 .body-container,
 .body-row,
 .body-col {
   /* border: solid red 10px; */
 }
+
+#lowerBodyNav .lowerBodyNav {
+  position: absolute;
+  z-index: 1;
+}
+
+
+/*  
+<div class="carousel slide"><div class="carousel-indicators"><button type="button" data-bs-target="" aria-label="Slide 1" aria-current="false"></button><button type="button" data-bs-target="" aria-label="Slide 2" aria-current="true" class="active"></button></div><div class="carousel-inner"><div interval="6000" class="carousel-item"><figure class="figure"><img src="/jdphotography/static/media/Resized_20211104_133011.19f10312.jpg" class="body-figure box figure-img img-fluid show"></figure></div><div interval="6000" class="active carousel-item"><figure class="figure"><img src="/jdphotography/static/media/Resized_20210228_042920.34301424.jpg" class="body-figure box figure-img img-fluid show"></figure></div></div><a class="carousel-control-prev" role="button" tabindex="0"><span aria-hidden="true" class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" role="button" tabindex="0"><span aria-hidden="true" class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
+*/
+/* <span aria-hidden="true" class="carousel-control-next-icon"></span> */
+/* <span class="visually-hidden">Previous</span> */
+/* <div class="carousel-indicators"><button type="button" data-bs-target="" aria-label="Slide 1" aria-current="true" class="active"></button><button type="button" data-bs-target="" aria-label="Slide 2" aria-current="false"></button></div> */
+
+/* THIS IS WHAT I HAVE TO WORK ON NEXT  //================================//     */
+div > .carousel-indicators button, .visually-hidden, .carousel-control-next-icon {
+  display: inline-block;
+  /* background-color: black;
+  color: black; */
+  /* position: absolute;
+  z-index: 1; */
+}
+
 
 .body-container {
   /* border: solid blue 10px; */
@@ -21,8 +109,8 @@
 
 .body-figure {
   /* border: solid green 10px; */
-  width: 200px;
-  height: 200px;
+  width: 15rem;
+  height: 15rem;
   /* padding: 10px; */
   /* box-shadow: 2px 4px 9px 0.25rem rgba(0, 0, 0, 0.3); */
 }
@@ -35,6 +123,8 @@
 
 div .lowerBodyNav {
   /* border: solid red 1px; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 @media screen and (min-width: 600px) {
@@ -43,9 +133,7 @@ div .lowerBodyNav {
     display: inline-block;
     width: 70vw;
   }
-  
 }
-
 
 @media screen and (min-width: 860px) {
   div .lowerBodyNav {
@@ -53,10 +141,7 @@ div .lowerBodyNav {
     display: inline-block;
     width: 60vw;
   }
-  
 }
-
-
 
 @media screen and (min-width: 1000px) {
   div .lowerBodyNav {
@@ -64,10 +149,7 @@ div .lowerBodyNav {
     display: inline-block;
     width: 50vw;
   }
-  
 }
-
-
 
 @media screen and (min-width: 1190px) {
   div .lowerBodyNav {
@@ -75,5 +157,4 @@ div .lowerBodyNav {
     display: inline-block;
     width: 40vw;
   }
-  
 }

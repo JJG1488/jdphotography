@@ -15,9 +15,9 @@ import LilPeeps from './components/pages/LilPeeps/LilPeeps';
 function App() {
   return (
     <div className="App">
+    <div className="background">
       <Router basename="/">
         <Wrapper>
-
           <NavTabs/>
           <Routes>
             <Route path="/" element={<Home/>} />
@@ -33,6 +33,7 @@ function App() {
 
         </Wrapper>
       </Router>
+      </div>
 
     </div>
   );
